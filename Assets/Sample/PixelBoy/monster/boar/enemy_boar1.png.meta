@@ -1,0 +1,687 @@
+fileFormatVersion: 2
+guid: cf07b600461c14ec687077088077e7c1
+timeCreated: 1521054406
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sprite-sheet-239x178_0
+    21300002: sprite-sheet-239x178_1
+    21300004: sprite-sheet-239x178_2
+    21300006: sprite-sheet-239x178_3
+    21300008: sprite-sheet-239x178_4
+    21300010: sprite-sheet-239x178_5
+    21300012: sprite-sheet-239x178_6
+    21300014: sprite-sheet-239x178_7
+    21300016: sprite-sheet-239x178_8
+    21300018: sprite-sheet-239x178_9
+    21300020: sprite-sheet-239x178_10
+    21300022: sprite-sheet-239x178_11
+    21300024: sprite-sheet-239x178_12
+    21300026: sprite-sheet-239x178_13
+    21300028: sprite-sheet-239x178_14
+    21300030: sprite-sheet-239x178_15
+    21300032: sprite-sheet-239x178_16
+    21300034: sprite-sheet-239x178_17
+    21300036: sprite-sheet-239x178_18
+    21300038: sprite-sheet-239x178_19
+    21300040: sprite-sheet-239x178_20
+    21300042: sprite-sheet-239x178_21
+    21300044: sprite-sheet-239x178_22
+    21300046: sprite-sheet-239x178_23
+    21300048: sprite-sheet-239x178_24
+    21300050: sprite-sheet-239x178_25
+    21300052: sprite-sheet-239x178_26
+    21300054: sprite-sheet-239x178_27
+    21300056: sprite-sheet-239x178_28
+    21300058: sprite-sheet-239x178_29
+    21300060: sprite-sheet-239x178_30
+    21300062: sprite-sheet-239x178_31
+    21300064: sprite-sheet-239x178_32
+    21300066: sprite-sheet-239x178_33
+    21300068: sprite-sheet-239x178_34
+    21300070: enemy_boar1_0
+    21300072: enemy_boar1_1
+    21300074: enemy_boar1_2
+    21300076: enemy_boar1_3
+    21300078: enemy_boar1_4
+    21300080: enemy_boar1_5
+    21300082: enemy_boar1_6
+    21300084: enemy_boar1_7
+    21300086: enemy_boar1_8
+    21300088: enemy_boar1_9
+    21300090: enemy_boar1_10
+    21300092: enemy_boar1_11
+    21300094: enemy_boar1_12
+    21300096: enemy_boar1_13
+    21300098: enemy_boar1_14
+    21300100: enemy_boar1_15
+    21300102: enemy_boar1_16
+    21300104: enemy_boar1_17
+    21300106: enemy_boar1_18
+    21300108: enemy_boar1_19
+    21300110: enemy_boar1_20
+    21300112: enemy_boar1_21
+    21300114: enemy_boar1_22
+    21300116: enemy_boar1_23
+    21300118: enemy_boar1_24
+    21300120: enemy_boar1_25
+    21300122: enemy_boar1_26
+    21300124: enemy_boar1_27
+    21300126: enemy_boar1_28
+    21300128: enemy_boar1_29
+    21300130: enemy_boar1_30
+    21300132: enemy_boar1_31
+    21300134: enemy_boar1_32
+    21300136: enemy_boar1_33
+    21300138: enemy_boar1_34
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: enemy_boar1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 890
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_1
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 890
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_2
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 890
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_3
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 890
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_4
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 890
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_5
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 890
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 712
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_7
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 712
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_8
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 712
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_9
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 712
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_10
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 712
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_11
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 712
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 534
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_13
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 534
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_14
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 534
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_15
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 534
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_16
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 534
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_17
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 534
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 356
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_19
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 356
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_20
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 356
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_21
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 356
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_22
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 356
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_23
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 356
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_25
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 178
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_26
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 178
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_27
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 178
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_28
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 178
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_29
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 178
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_31
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 0
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_32
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 0
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_33
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 0
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: enemy_boar1_34
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 0
+        width: 239
+        height: 178
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

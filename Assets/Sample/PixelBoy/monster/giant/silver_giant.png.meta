@@ -1,0 +1,994 @@
+fileFormatVersion: 2
+guid: b1bfa416ccf7b4c0994ece39926644fe
+timeCreated: 1524768454
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: silver_giant_0
+    21300002: silver_giant_1
+    21300004: silver_giant_2
+    21300006: silver_giant_3
+    21300008: silver_giant_4
+    21300010: silver_giant_5
+    21300012: silver_giant_6
+    21300014: silver_giant_7
+    21300016: silver_giant_8
+    21300018: silver_giant_9
+    21300020: silver_giant_10
+    21300022: silver_giant_11
+    21300024: silver_giant_12
+    21300026: silver_giant_13
+    21300028: silver_giant_14
+    21300030: silver_giant_15
+    21300032: silver_giant_16
+    21300034: silver_giant_17
+    21300036: silver_giant_18
+    21300038: silver_giant_19
+    21300040: silver_giant_20
+    21300042: silver_giant_21
+    21300044: silver_giant_22
+    21300046: silver_giant_23
+    21300048: silver_giant_24
+    21300050: silver_giant_25
+    21300052: silver_giant_26
+    21300054: silver_giant_27
+    21300056: silver_giant_28
+    21300058: silver_giant_29
+    21300060: silver_giant_30
+    21300062: silver_giant_31
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: silver_giant_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 954
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.621094, y: -9.77305}
+        - {x: -100.76172, y: -9.77305}
+        - {x: -172.94922, y: -93.971634}
+        - {x: -172.94922, y: -157.12057}
+        - {x: 82.71484, y: -157.12057}
+        - {x: 100.76172, y: -125.546104}
+        - {x: 100.76172, y: -56.38298}
+        - {x: 58.652344, y: -12.780142}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_1
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 954
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -153.39844, y: -5.2624116}
+        - {x: -172.94922, y: -45.85816}
+        - {x: -172.94922, y: -130.05675}
+        - {x: -168.4375, y: -137.57448}
+        - {x: -160.91797, y: -140.58156}
+        - {x: -124.82422, y: -146.59575}
+        - {x: -109.78516, y: -130.05675}
+        - {x: -102.265625, y: -113.51773}
+        - {x: -108.28125, y: -157.12057}
+        - {x: 88.73047, y: -157.12057}
+        - {x: 102.265625, y: -149.60284}
+        - {x: 102.265625, y: -39.84397}
+        - {x: 69.17969, y: -5.2624116}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_2
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 954
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 4.5117188, y: 3.7588654}
+        - {x: -133.84766, y: 3.7588654}
+        - {x: -156.40625, y: -35.333336}
+        - {x: -171.44531, y: -65.40426}
+        - {x: -171.44531, y: -157.12057}
+        - {x: 102.265625, y: -157.12057}
+        - {x: 102.265625, y: -35.333336}
+        - {x: 90.234375, y: -11.276596}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_3
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 954
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 87.22656, y: -29.31915}
+        - {x: 15.0390625, y: -9.77305}
+        - {x: -43.61328, y: 3.7588654}
+        - {x: -112.79297, y: 3.7588654}
+        - {x: -165.42969, y: -29.31915}
+        - {x: -171.44531, y: -54.879433}
+        - {x: -171.44531, y: -157.12057}
+        - {x: 85.72266, y: -157.12057}
+        - {x: 102.265625, y: -128.55319}
+        - {x: 102.265625, y: -41.34752}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_4
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 954
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -171.44531, y: -3.7588654}
+        - {x: -171.44531, y: -134.56738}
+        - {x: -159.41406, y: -143.58865}
+        - {x: -124.82422, y: -148.09929}
+        - {x: -106.77734, y: -130.05675}
+        - {x: -100.76172, y: -116.524826}
+        - {x: -106.77734, y: -139.07802}
+        - {x: -99.25781, y: -155.61702}
+        - {x: -97.75391, y: -157.12057}
+        - {x: 75.19531, y: -157.12057}
+        - {x: 102.265625, y: -118.02837}
+        - {x: 102.265625, y: -23.304966}
+        - {x: 58.652344, y: -3.7588654}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_5
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 954
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 28.574219, y: -14.283689}
+        - {x: -45.117188, y: -14.283689}
+        - {x: -64.66797, y: -15.787234}
+        - {x: -142.8711, y: -27.815603}
+        - {x: -172.94922, y: -65.40426}
+        - {x: -172.94922, y: -157.12057}
+        - {x: 82.71484, y: -157.12057}
+        - {x: 100.76172, y: -125.546104}
+        - {x: 100.76172, y: -47.361702}
+        - {x: 93.24219, y: -38.340427}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_6
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 954
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 64.66797, y: -11.276596}
+        - {x: -118.80859, y: -11.276596}
+        - {x: -172.94922, y: -68.41135}
+        - {x: -172.94922, y: -125.546104}
+        - {x: -168.4375, y: -139.07802}
+        - {x: -126.328125, y: -152.60994}
+        - {x: -100.76172, y: -127.04965}
+        - {x: -105.27344, y: -148.09929}
+        - {x: -108.28125, y: -157.12057}
+        - {x: 100.76172, y: -157.12057}
+        - {x: 100.76172, y: -57.886528}
+        - {x: 78.203125, y: -14.283689}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_7
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 954
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.589844, y: 63.90071}
+        - {x: -45.117188, y: 63.90071}
+        - {x: -123.32031, y: 32.32624}
+        - {x: -147.38281, y: -14.283689}
+        - {x: -147.38281, y: -124.04256}
+        - {x: -135.35156, y: -157.12057}
+        - {x: 91.73828, y: -157.12057}
+        - {x: 91.73828, y: -35.333336}
+        - {x: 82.71484, y: -18.794327}
+      - - {x: -18.046875, y: 3.7588654}
+        - {x: -15.0390625, y: 2.255319}
+        - {x: -9.0234375, y: 0.75177306}
+        - {x: -19.550781, y: 2.255319}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 636
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.61328, y: 63.148937}
+        - {x: -151.89453, y: 16.539007}
+        - {x: -154.90234, y: 3.0070922}
+        - {x: -154.90234, y: -120.28369}
+        - {x: -144.375, y: -157.87234}
+        - {x: 90.234375, y: -157.87234}
+        - {x: 90.234375, y: -18.042553}
+        - {x: 45.117188, y: 63.148937}
+      - - {x: -18.046875, y: 4.510638}
+        - {x: -13.535156, y: 1.5035461}
+        - {x: -7.5195312, y: 1.5035461}
+        - {x: -16.542969, y: 3.0070922}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_9
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 636
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -58.652344, y: 63.148937}
+        - {x: -115.80078, y: 51.120567}
+        - {x: -154.90234, y: 13.531916}
+        - {x: -154.90234, y: -84.198586}
+        - {x: -117.30469, y: -157.87234}
+        - {x: 90.234375, y: -157.87234}
+        - {x: 90.234375, y: 0}
+        - {x: 61.660156, y: 63.148937}
+      - - {x: -16.542969, y: 4.510638}
+        - {x: -12.03125, y: 1.5035461}
+        - {x: -7.5195312, y: 1.5035461}
+        - {x: -16.542969, y: 1.5035461}
+        - {x: -15.0390625, y: 3.0070922}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_10
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 636
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 178.96484, y: -52.624115}
+        - {x: 57.148438, y: 3.0070922}
+        - {x: -3.0078125, y: 9.021276}
+        - {x: -93.24219, y: 9.021276}
+        - {x: -102.265625, y: -7.5177307}
+        - {x: -108.28125, y: -61.645393}
+        - {x: -108.28125, y: -148.85107}
+        - {x: -103.76953, y: -156.3688}
+        - {x: -84.21875, y: -159}
+        - {x: 99.25781, y: -159}
+        - {x: 174.45312, y: -132.31206}
+        - {x: 190.9961, y: -103.74468}
+        - {x: 190.9961, y: -78.1844}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_11
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 636
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -91.73828, y: 12.028369}
+        - {x: -108.28125, y: -6.0141845}
+        - {x: -108.28125, y: -159}
+        - {x: 126.328125, y: -159}
+        - {x: 192.5, y: -114.26951}
+        - {x: 192.5, y: -33.078014}
+        - {x: 34.589844, y: 12.028369}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_12
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 636
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 66.171875, y: -13.531916}
+        - {x: 42.109375, y: -9.021276}
+        - {x: -52.63672, y: 10.524823}
+        - {x: -70.68359, y: 10.524823}
+        - {x: -82.71484, y: -6.0141845}
+        - {x: -108.28125, y: -106.75178}
+        - {x: -108.28125, y: -159}
+        - {x: 133.84766, y: -159}
+        - {x: 192.5, y: -121.78724}
+        - {x: 192.5, y: -58.6383}
+        - {x: 186.48438, y: -49.617023}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_13
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 636
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.15625, y: 4.510638}
+        - {x: 36.09375, y: 7.5177307}
+        - {x: -91.73828, y: 7.5177307}
+        - {x: -108.28125, y: -76.680855}
+        - {x: -108.28125, y: -159}
+        - {x: 141.36719, y: -159}
+        - {x: 192.5, y: -120.28369}
+        - {x: 192.5, y: -67.65958}
+        - {x: 184.98047, y: -51.120567}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_14
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 636
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -148.88672, y: -4.510638}
+        - {x: -192.5, y: -30.070923}
+        - {x: -192.5, y: -111.26241}
+        - {x: -136.85547, y: -157.87234}
+        - {x: 66.171875, y: -157.87234}
+        - {x: 114.296875, y: -112.76596}
+        - {x: 114.296875, y: -36.085106}
+        - {x: 103.76953, y: -4.510638}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_15
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 636
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -178.96484, y: 1.5035461}
+        - {x: -192.5, y: -10.524823}
+        - {x: -192.5, y: -112.76596}
+        - {x: -159.41406, y: -157.87234}
+        - {x: 111.28906, y: -157.87234}
+        - {x: 114.296875, y: -144.34042}
+        - {x: 114.296875, y: -1.5035461}
+        - {x: 103.76953, y: 1.5035461}
+      - - {x: 49.628906, y: -88.70922}
+        - {x: 48.125, y: -88.70922}
+        - {x: 58.652344, y: -100.737595}
+        - {x: 60.15625, y: -100.737595}
+        - {x: 61.660156, y: -99.23405}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 318
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -181.97266, y: 3.7588654}
+        - {x: -192.5, y: -24.808512}
+        - {x: -192.5, y: -113.51773}
+        - {x: -132.34375, y: -155.61702}
+        - {x: 114.296875, y: -155.61702}
+        - {x: 114.296875, y: 3.7588654}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_17
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 318
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.046875, y: 121.03547}
+        - {x: -117.30469, y: 121.03547}
+        - {x: -138.35938, y: 102.99291}
+        - {x: -138.35938, y: 0.75177306}
+        - {x: -106.77734, y: -102.99291}
+        - {x: -100.76172, y: -109.007095}
+        - {x: 90.234375, y: -109.007095}
+        - {x: 108.28125, y: -77.432625}
+        - {x: 108.28125, y: 14.283689}
+        - {x: 81.21094, y: 51.87234}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_18
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 318
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.542969, y: 136.07092}
+        - {x: -130.83984, y: 136.07092}
+        - {x: -151.89453, y: 128.55319}
+        - {x: -151.89453, y: -36.83688}
+        - {x: -114.296875, y: -87.95745}
+        - {x: -97.75391, y: -95.47518}
+        - {x: -1.5039062, y: -95.47518}
+        - {x: 81.21094, y: -74.42554}
+        - {x: 106.77734, y: -48.86525}
+        - {x: 106.77734, y: 41.34752}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_19
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 318
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -148.88672, y: 137.57448}
+        - {x: -148.88672, y: 23.304966}
+        - {x: -138.35938, y: 21.801418}
+        - {x: -124.82422, y: 24.808512}
+        - {x: -108.28125, y: -32.32624}
+        - {x: -103.76953, y: -39.84397}
+        - {x: -100.76172, y: -45.85816}
+        - {x: -102.265625, y: -62.397167}
+        - {x: -99.25781, y: -81.94327}
+        - {x: -85.72266, y: -93.971634}
+        - {x: -19.550781, y: -93.971634}
+        - {x: 84.21875, y: -83.44681}
+        - {x: 108.28125, y: -35.333336}
+        - {x: 108.28125, y: 32.32624}
+        - {x: -16.542969, y: 137.57448}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_20
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 318
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.589844, y: 145.09221}
+        - {x: -96.25, y: 159}
+        - {x: -115.80078, y: 159}
+        - {x: -159.41406, y: 109.007095}
+        - {x: -159.41406, y: 96.97873}
+        - {x: -148.88672, y: 87.95745}
+        - {x: -136.85547, y: 92.46809}
+        - {x: -145.8789, y: 87.95745}
+        - {x: -154.90234, y: 77.432625}
+        - {x: -154.90234, y: 48.86525}
+        - {x: -145.8789, y: 45.85816}
+        - {x: -142.8711, y: 51.87234}
+        - {x: -108.28125, y: -48.86525}
+        - {x: -88.73047, y: -33.82979}
+        - {x: -84.21875, y: -27.815603}
+        - {x: -84.21875, y: -24.808512}
+        - {x: -84.21875, y: -38.340427}
+        - {x: -87.22656, y: -36.83688}
+        - {x: -105.27344, y: -59.39007}
+        - {x: -99.25781, y: -80.43972}
+        - {x: -91.73828, y: -92.46809}
+        - {x: 1.5039062, y: -92.46809}
+        - {x: 76.69922, y: -87.95745}
+        - {x: 108.28125, y: -33.82979}
+        - {x: 108.28125, y: 42.851067}
+      - - {x: -79.70703, y: 63.90071}
+        - {x: -78.203125, y: 69.914894}
+        - {x: -75.19531, y: 72.92199}
+        - {x: -75.19531, y: 75.92908}
+        - {x: -67.67578, y: 86.4539}
+        - {x: -64.66797, y: 89.461}
+        - {x: -66.171875, y: 87.95745}
+        - {x: -66.171875, y: 80.43972}
+        - {x: -69.17969, y: 78.93617}
+        - {x: -84.21875, y: 60.89362}
+        - {x: -81.21094, y: 60.89362}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_21
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 318
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6.015625, y: 152.60994}
+        - {x: -51.132812, y: 143.58865}
+        - {x: -73.69141, y: 133.06383}
+        - {x: -69.17969, y: 137.57448}
+        - {x: -63.164062, y: 145.09221}
+        - {x: -60.15625, y: 152.60994}
+        - {x: -67.67578, y: 159}
+        - {x: -97.75391, y: 159}
+        - {x: -117.30469, y: 152.60994}
+        - {x: -144.375, y: 118.02837}
+        - {x: -144.375, y: 74.42554}
+        - {x: -126.328125, y: -60.89362}
+        - {x: -94.74609, y: -87.95745}
+        - {x: 13.535156, y: -87.95745}
+        - {x: 96.25, y: -51.87234}
+        - {x: 108.28125, y: -27.815603}
+        - {x: 108.28125, y: 42.851067}
+      - - {x: -66.171875, y: 83.44681}
+        - {x: -67.67578, y: 81.94327}
+        - {x: -67.67578, y: 80.43972}
+        - {x: -66.171875, y: 80.43972}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_22
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 318
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.30469, y: -74.42554}
+        - {x: -127.83203, y: -74.42554}
+        - {x: -127.83203, y: -87.95745}
+        - {x: -19.550781, y: -158.62411}
+        - {x: 1.5039062, y: -158.62411}
+        - {x: 6.015625, y: -137.57448}
+        - {x: 6.015625, y: -116.524826}
+        - {x: -1.5039062, y: -107.50355}
+      - - {x: -48.125, y: 124.04256}
+        - {x: -49.628906, y: 122.53901}
+        - {x: -48.125, y: 116.524826}
+        - {x: -40.60547, y: 109.007095}
+        - {x: -108.28125, y: 53.37589}
+        - {x: -108.28125, y: 8.269504}
+        - {x: -81.21094, y: -110.51064}
+        - {x: -6.015625, y: -158.62411}
+        - {x: 90.234375, y: -158.62411}
+        - {x: 133.84766, y: -59.39007}
+        - {x: 133.84766, y: 41.34752}
+        - {x: 0, y: 124.04256}
+      - - {x: 157.91016, y: -27.815603}
+        - {x: 154.90234, y: -30.822697}
+        - {x: 82.71484, y: -98.48227}
+        - {x: 81.21094, y: -102.99291}
+        - {x: 81.21094, y: -109.007095}
+        - {x: 115.80078, y: -140.58156}
+        - {x: 130.83984, y: -140.58156}
+        - {x: 165.42969, y: -81.94327}
+        - {x: 165.42969, y: -27.815603}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_23
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 318
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -99.25781, y: -50.368797}
+        - {x: -82.71484, y: -106}
+        - {x: -43.61328, y: -158.62411}
+        - {x: 103.76953, y: -158.62411}
+        - {x: 133.84766, y: -127.04965}
+        - {x: 133.84766, y: 32.32624}
+        - {x: 82.71484, y: 75.92908}
+        - {x: 72.1875, y: 81.94327}
+        - {x: -85.72266, y: 81.94327}
+        - {x: -99.25781, y: 75.92908}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 37.597656, y: 82.69504}
+        - {x: -87.22656, y: 82.69504}
+        - {x: -99.25781, y: 79.68794}
+        - {x: -99.25781, y: -36.085106}
+        - {x: -75.19531, y: -111.26241}
+        - {x: -4.5117188, y: -159}
+        - {x: 114.296875, y: -159}
+        - {x: 135.35156, y: -72.17021}
+        - {x: 135.35156, y: 46.609932}
+        - {x: 76.69922, y: 79.68794}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_25
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 0
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -96.25, y: 81.19149}
+        - {x: -96.25, y: -120.28369}
+        - {x: -1.5039062, y: -159}
+        - {x: 133.84766, y: -159}
+        - {x: 135.35156, y: -156.3688}
+        - {x: 135.35156, y: 60.141846}
+        - {x: 118.80859, y: 81.19149}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_26
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -94.74609, y: 79.68794}
+        - {x: -94.74609, y: -102.241135}
+        - {x: 0, y: -157.87234}
+        - {x: 103.76953, y: -157.87234}
+        - {x: 135.35156, y: -102.241135}
+        - {x: 135.35156, y: 63.148937}
+        - {x: 100.76172, y: 79.68794}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_27
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 0
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -82.71484, y: 81.19149}
+        - {x: -82.71484, y: -105.24823}
+        - {x: -78.203125, y: -129.30496}
+        - {x: -4.5117188, y: -154.86525}
+        - {x: 132.34375, y: -154.86525}
+        - {x: 136.85547, y: -147.34752}
+        - {x: 136.85547, y: 39.0922}
+        - {x: 120.3125, y: 81.19149}
+      - - {x: -73.69141, y: 46.609932}
+        - {x: -81.21094, y: 46.609932}
+        - {x: -81.21094, y: 39.0922}
+        - {x: -78.203125, y: 37.588654}
+        - {x: -73.69141, y: 37.588654}
+        - {x: -72.1875, y: 40.595745}
+        - {x: -72.1875, y: 45.106384}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_28
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 0
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -111.28906, y: 24.056738}
+        - {x: -145.8789, y: -30.070923}
+        - {x: -145.8789, y: -151.85815}
+        - {x: -139.86328, y: -157.87234}
+        - {x: 64.66797, y: -157.87234}
+        - {x: 93.24219, y: -139.82979}
+        - {x: 93.24219, y: -30.070923}
+        - {x: 18.046875, y: 24.056738}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_29
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 0
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -117.30469, y: 27.063831}
+        - {x: -145.8789, y: -33.078014}
+        - {x: -145.8789, y: -150.35461}
+        - {x: -142.8711, y: -154.86525}
+        - {x: 88.73047, y: -154.86525}
+        - {x: 91.73828, y: -153.36171}
+        - {x: 91.73828, y: -19.5461}
+        - {x: 30.078125, y: 27.063831}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_30
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 0
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.535156, y: 27.063831}
+        - {x: -70.68359, y: 27.063831}
+        - {x: -123.32031, y: 10.524823}
+        - {x: -145.8789, y: -58.6383}
+        - {x: -145.8789, y: -145.84398}
+        - {x: -121.81641, y: -153.36171}
+        - {x: 85.72266, y: -153.36171}
+        - {x: 93.24219, y: -106.75178}
+        - {x: 93.24219, y: -15.035461}
+      - - {x: -9.0234375, y: 159}
+        - {x: -7.5195312, y: 154.86525}
+        - {x: -3.0078125, y: 154.86525}
+        - {x: 0, y: 157.87234}
+        - {x: 0, y: 159}
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: silver_giant_31
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 0
+        width: 385
+        height: 318
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -54.140625, y: 24.056738}
+        - {x: -121.81641, y: 6.0141845}
+        - {x: -145.8789, y: -57.134754}
+        - {x: -145.8789, y: -151.85815}
+        - {x: 81.21094, y: -151.85815}
+        - {x: 93.24219, y: -117.2766}
+        - {x: 93.24219, y: -10.524823}
+        - {x: 19.550781, y: 24.056738}
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
