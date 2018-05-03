@@ -3,14 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace BattleAnimeSystem { 
-	public class AttackAction : AnimeAction {
-		public Model actor;
+	public class ModelAttackAction : ModelAction {
 		public AnimeAction onHitAction = null;
 		public short style = 0;
 
 		public bool isMoving = true;
 		public Vector2 targetPostion = new Vector2(0, 0);
-
 		
 		protected override void OnStart() {
 			if(name == "") {

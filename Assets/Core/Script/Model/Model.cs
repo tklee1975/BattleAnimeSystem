@@ -17,10 +17,9 @@ namespace BattleAnimeSystem {
 			Right,
 		};
 
+        const float kFrontZPosition = -5;    // the z position to make the character bring to front
+
         protected IModelAnimeImpl mAnimeImpl;
-
-
-
 
         public float moveDuration = 0.3f;
 		public Dir faceDir = Dir.Left; 
@@ -29,13 +28,13 @@ namespace BattleAnimeSystem {
 
 		public delegate void Callback();
 
+		// 
 		protected Callback mHitCallback;
 		protected Callback mEndCallback;
-
 		protected Callback mMoveCallback;
 		
 
-		protected Vector2 mOriginPosition;
+		protected Vector3 mOriginPosition;
 		protected Vector2 mTargetPosition;
 
 		protected int mDebugCounter;		// For debugging
@@ -59,9 +58,7 @@ namespace BattleAnimeSystem {
 			}
 
             // Position 
-			mOriginPosition = (Vector2) transform.position;
-
-            SetupMoveAction();
+			mOriginPosition = transform.position;
 
 			// for Debugging
 			mDebugCounter = 0;
@@ -79,9 +76,7 @@ namespace BattleAnimeSystem {
 		
 		// Update is called once per frame
 		void Update () {
-            if(mStartMove) {
-			    UpdateMove();	
-            }
+			mAnimeImpl.Update(Time.deltaTime);
 		}
 
 
@@ -160,16 +155,14 @@ namespace BattleAnimeSystem {
 
         #region Model Action Logic 
 
-
-
-		public void Move(Vector2 targetPos) {
+		public virtual void Move(Vector2 targetPos) {
 			ShowMoveAnime();
 			MoveTo(targetPos, moveDuration, () => {
 				ShowIdleAnime();
 			});
 		}
 
-		public void Hit(Callback endCallback = null)
+		public virtual void Hit(Callback endCallback = null)
 		{
 			mEndCallback = () => {
 				if(endCallback != null) {
@@ -181,7 +174,7 @@ namespace BattleAnimeSystem {
 			ShowHitAnime();
 		}
 
-		public void Attack(short style, Callback hitCallback = null, Callback endCallback = null)
+		public virtual void Attack(short style, Callback hitCallback = null, Callback endCallback = null)
 		{
 			mHitCallback = hitCallback;
 			mEndCallback = () => {
@@ -196,22 +189,27 @@ namespace BattleAnimeSystem {
 			ShowAttackAnime(style);
 		}
 
-		public void MoveForward(Vector2 targetPos, Callback callback = null) {
-			mTargetPosition = targetPos;
+		public virtual void MoveForward(Vector2 targetPos, Callback callback = null) {
+			Vector3 endPos = VectorUtil.CombineVectorWithZ(targetPos, kFrontZPosition);
 			mOriginPosition = transform.position;
+
+			// 
 			ShowForwardAnime();
-			MoveTo(mTargetPosition, moveDuration, callback);
+
+			Move(transform.position, endPos, moveDuration, callback);
 		}
 
-		public void MoveBack(Callback callback = null) {
+		public virtual void MoveBack(Callback callback = null) {
 			ShowBackwardAnime();
-			MoveTo(mOriginPosition, moveDuration, () => {
-				Debug.Log("MoveBack Finished!");
-				ShowIdleAnime();
-				if(callback != null) {
-					callback();
-				}
-			});
+
+			Move(transform.position, mOriginPosition, moveDuration, () => {
+						Debug.Log("MoveBack Finished!");
+						ShowIdleAnime();
+						if(callback != null) {
+							callback();
+						}
+					}
+			);
 		}
 
         #endregion
@@ -220,48 +218,16 @@ namespace BattleAnimeSystem {
 
 		
         // #region Movement Logic
-        protected MoveAction mMoveAction;
-		protected bool mStartMove = false;
-
-        public void MoveTo(Vector2 targetPos, float duration, Callback callback) {
-			mMoveAction.Reset();
-			mMoveAction.name = "moveTo:" + targetPos;
-			mMoveAction.startPosition = transform.position;
-
-			Vector3 endPos = transform.position;
-			endPos.x = targetPos.x; endPos.y = targetPos.y;
-			mMoveAction.endPosition = endPos;
-
-			mMoveAction.SetDuration(duration);
-
-			mMoveCallback = callback;
-			mMoveAction.Start();
-			mStartMove = true;
+		void Move(Vector3 from, Vector3 to, float duration, Model.Callback callback)
+		{
+			mAnimeImpl.Move(from, to, duration, callback);
 		}
-
-        void UpdateMove() {
-			if(mStartMove == false) {
-				return;
-			} 
-			mMoveAction.Update(Time.deltaTime);
-			if(mMoveAction.IsDone()) {
-				//Debug.Log("UpdateMove: " + mMoveAction.name + " done!");
-				mStartMove = false;
-				if(mMoveCallback != null) {
-					mMoveCallback();
-				}
-				
-			}
+      
+        public void MoveTo(Vector3 targetPos, float duration, Callback callback) {
+			
+		
+			
 		}
-
-
-        protected void SetupMoveAction() {
-            // For Moving 
-			mMoveAction = new MoveAction();
-			mMoveAction.name = "BattleModel.move";
-			mMoveAction.autoFlip = false;
-			mMoveAction.targetObject = gameObject;
-        }
 
 
         // #endregion

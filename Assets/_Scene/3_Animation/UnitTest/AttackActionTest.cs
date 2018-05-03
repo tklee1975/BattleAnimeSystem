@@ -35,7 +35,7 @@ public class AttackActionTest : BaseTest {
 			sequence.AddAction(effectAction);
 		}
 
-		HitAction hitAction = new HitAction();
+		ModelHitAction hitAction = new ModelHitAction();
 		hitAction.name = "enemyHit";
 		hitAction.actor = targetModel;
 		sequence.AddAction(hitAction);
@@ -50,13 +50,13 @@ public class AttackActionTest : BaseTest {
 		return sequence;
 	}
 
-	public AttackAction CreateActorAttackAction(short style, bool isMoving, AnimeAction onHitAction) {
+	public ModelAttackAction CreateActorAttackAction(short style, bool isMoving, AnimeAction onHitAction) {
 		return CreateAttackAction(hero, enemy, style, isMoving, onHitAction);
 	}
 
-	public AttackAction CreateAttackAction(BattleModel actor, BattleModel target, 
+	public ModelAttackAction CreateAttackAction(BattleModel actor, BattleModel target, 
 							short style, bool isMoving, AnimeAction onHitAction) {
-		AttackAction attackAction = new AttackAction();
+		ModelAttackAction attackAction = new ModelAttackAction();
 		attackAction.actor = actor;
 		attackAction.style = style;
 		attackAction.isMoving = isMoving;
@@ -88,14 +88,14 @@ public class AttackActionTest : BaseTest {
 	[Test]
 	public void Melee1()
 	{
-		AttackAction attackAction = CreateActorAttackAction(0, true, CreateTargetHitDamageAction());
+		ModelAttackAction attackAction = CreateActorAttackAction(0, true, CreateTargetHitDamageAction());
 		actionManager.RunAction(attackAction);
 	}
 
 	[Test]
 	public void Melee2()
 	{
-		AttackAction attackAction = CreateActorAttackAction(1, true, CreateTargetHitDamageAction());
+		ModelAttackAction attackAction = CreateActorAttackAction(1, true, CreateTargetHitDamageAction());
 		actionManager.RunAction(attackAction);
 		
 	}
@@ -103,7 +103,7 @@ public class AttackActionTest : BaseTest {
 	[Test]
 	public void Range1()
 	{
-		AttackAction attackAction = CreateActorAttackAction(1, false, CreateTargetHitDamageAction());
+		ModelAttackAction attackAction = CreateActorAttackAction(1, false, CreateTargetHitDamageAction());
 		actionManager.RunAction(attackAction);
 	}
 
@@ -117,7 +117,7 @@ public class AttackActionTest : BaseTest {
 		sequence.AddAction(CreateTargetHitDamageAction());
 
 		// 
-		AttackAction attackAction = CreateActorAttackAction(1, false, sequence);
+		ModelAttackAction attackAction = CreateActorAttackAction(1, false, sequence);
 		actionManager.RunAction(attackAction);	
 	}
 

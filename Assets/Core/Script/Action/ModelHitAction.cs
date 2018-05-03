@@ -3,16 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace BattleAnimeSystem { 
-	public class HitAction : AnimeAction {
-		public BattleModel actor;
-
-		
+	public class ModelHitAction : ModelAction {
 		protected override void OnStart() {
 			if(name == "") {
 				name = "BattleHit";
 			}
 			
-			SetEndByCondition();		// When for 
+			SetEndByCondition();		// End by Calling 'MarkAsDone'
 			if(actor == null) {
 				MarkAsDone();
 				return;

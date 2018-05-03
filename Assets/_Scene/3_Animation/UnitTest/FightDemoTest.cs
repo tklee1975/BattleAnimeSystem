@@ -86,7 +86,7 @@ public class FightDemoTest : BaseTest {
 			sequence.AddAction(effectAction);
 		}
 
-		HitAction hitAction = new HitAction();
+		ModelHitAction hitAction = new ModelHitAction();
 		hitAction.name = "enemyHit";
 		hitAction.actor = targetModel;
 		sequence.AddAction(hitAction);
@@ -102,9 +102,9 @@ public class FightDemoTest : BaseTest {
 	}
 
 
-	public AttackAction CreateAttackAction(BattleModel actor, BattleModel target, 
+	public ModelAttackAction CreateAttackAction(BattleModel actor, BattleModel target, 
 							short style, bool isMoving, AnimeAction onHitAction) {
-		AttackAction attackAction = new AttackAction();
+		ModelAttackAction attackAction = new ModelAttackAction();
 		attackAction.actor = actor;
 		attackAction.style = style;
 		attackAction.isMoving = isMoving;

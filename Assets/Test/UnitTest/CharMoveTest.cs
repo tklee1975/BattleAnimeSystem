@@ -49,7 +49,7 @@ public class CharMoveTest : BaseTest {
 	[Test]
 	public void AttackStyle0() 
 	{		
-		AttackAction attackAction = new AttackAction();
+		ModelAttackAction attackAction = new ModelAttackAction();
 		attackAction.actor = hero;
 		attackAction.style = 0;
 		attackAction.isMoving = true;
@@ -62,7 +62,7 @@ public class CharMoveTest : BaseTest {
 	[Test]
 	public void AttackStyle1() 
 	{		
-		AttackAction attackAction = new AttackAction();
+		ModelAttackAction attackAction = new ModelAttackAction();
 		attackAction.actor = hero;
 		attackAction.style = 1;
 		attackAction.isMoving = false;
@@ -74,7 +74,7 @@ public class CharMoveTest : BaseTest {
 	[Test]
 	public void AttackAction() 
 	{
-		AttackAction action = new AttackAction();
+		ModelAttackAction action = new ModelAttackAction();
 		action.actor = hero;
 		action.targetPostion = target.transform.position;
 

@@ -6,9 +6,10 @@ using UnityEngine;
 namespace BattleAnimeSystem { 
 	public class BattleModel : Model {
 		public override void SetupAnimeImpl() {
-			Animator animator = GetComponentInChildren<Animator>();
-
-			mAnimeImpl = new ModelAnimeImplAnimator(animator);
+			// Choose Different Implement you want 
+			mAnimeImpl = new ModelAnimeImplAnimator(gameObject);
+			// mAnimeImpl = new ModelAnimeImplAnimatorDOT(gameObject);	// Animator + DOTTween
+			// mAnimeImpl = new ModelAnimeImplSpine(gameObject);		// Spine 
 		}
 	}
 }
