@@ -5,13 +5,13 @@ using UnityEngine;
 
 namespace BattleAnimeSystem { 
     // Generic Model 
-	public class ModelAnimeImplAnimator : IModelAnimeImpl {
+	public class ModelAnimePlayerAnimator : IModelAnimePlayer {
         protected GameObject mGameObject = null;
         protected Animator mAnimator = null;
         protected Transform mTransform;
 
 
-        public ModelAnimeImplAnimator(GameObject gameObject) {
+        public ModelAnimePlayerAnimator(GameObject gameObject) {
             mGameObject = gameObject;
 
             if(mGameObject == null) {
@@ -70,9 +70,9 @@ namespace BattleAnimeSystem {
           // #region Movement Logic
         protected MoveAction mMoveAction;
 		protected bool mStartMove = false;
-        protected Model.Callback mMoveCallback;
+        protected AnimeCallback mMoveCallback;
 
-        public void Move(Vector3 from, Vector3 to, float duration, Model.Callback callback) {
+        public void Move(Vector3 from, Vector3 to, float duration, AnimeCallback callback) {
 
             // 
 			mMoveAction.Reset();

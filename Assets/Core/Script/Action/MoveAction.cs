@@ -16,6 +16,14 @@ namespace BattleAnimeSystem
 
         protected Transform mModelTransform = null;
 
+        public void Setup(Vector3 from, Vector3 to, float duration, bool worldPos = true) {
+            Reset();
+            startPosition = from;
+            endPosition = to;
+            SetDuration(duration);
+            isWorldPosition = worldPos;
+        }
+
         protected override void OnStart()
         {
             if (name == "")

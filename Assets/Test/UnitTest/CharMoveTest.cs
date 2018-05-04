@@ -92,12 +92,12 @@ public class CharMoveTest : BaseTest {
 	{
 		Vector2 endPos = new Vector2(-3, 1);
 
-		BattleModel.Callback hitCallback = () => {
+		AnimeCallback hitCallback = () => {
 			Debug.Log("Attack hit!");
 		};
 
 
-		BattleModel.Callback endCallback = () => {
+		AnimeCallback endCallback = () => {
 			Debug.Log("Attack Chain End!");
 		};
 
@@ -111,7 +111,7 @@ public class CharMoveTest : BaseTest {
 	[Test]
 	public void Hit()
 	{
-		BattleModel.Callback endCallback = () => {
+		AnimeCallback endCallback = () => {
 			Debug.Log("Hit End!");
 		};
 		hero.Hit(endCallback);
@@ -120,11 +120,11 @@ public class CharMoveTest : BaseTest {
 	[Test]
 	public void Attack()
 	{
-		BattleModel.Callback hitCallback = () => {
+		AnimeCallback hitCallback = () => {
 			Debug.Log("Attack hit!");
 		};
 
-		BattleModel.Callback endCallback = () => {
+		AnimeCallback endCallback = () => {
 			Debug.Log("Attack End!");
 		};
 

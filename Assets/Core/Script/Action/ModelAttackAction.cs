@@ -28,12 +28,12 @@ namespace BattleAnimeSystem {
 
 			Vector2 endPos = targetPostion;
 
-			Model.Callback hitCallback = () => {
+			AnimeCallback hitCallback = () => {
 				OnAttackHit();
 			};
 
 
-			Model.Callback endCallback = () => {
+			AnimeCallback endCallback = () => {
 				Debug.Log(" Move Bak done");
 				MarkAsDone();
 			};

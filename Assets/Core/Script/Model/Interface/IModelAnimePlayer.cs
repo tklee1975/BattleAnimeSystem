@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace BattleAnimeSystem { 
     // Generic Model 
-	public interface IModelAnimeImpl {
+	public interface IModelAnimePlayer {
 
         // Animation 
         void ShowAttack(short attackMode);
@@ -17,7 +17,7 @@ namespace BattleAnimeSystem {
         void Update(float delta);
 
         // Move 
-        void Move(Vector3 from, Vector3 to, float duration, Model.Callback callback);        
+        void Move(Vector3 from, Vector3 to, float duration, AnimeCallback callback);        
 
         // void Update(float delta);
     }
