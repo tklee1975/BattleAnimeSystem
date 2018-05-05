@@ -115,12 +115,16 @@ namespace BattleAnimeSystem {
 		//protected voi
 
         #region Position Information 
+		public Vector2 GetPosition() {
+			return transform.position;
+		}
+
         public Vector2 GetOriginPosition() {
             return mOriginPosition;
         }
 
 		 public virtual Vector2 GetCenterPosition() {    // the 
-		 	return mOriginPosition + new Vector3(0, 20, 0);
+		 	return (transform.position + new Vector3(0, 1, 0));
         }
 
         public virtual Vector2 GetCloseAttackPosition(Vector3 targetPos) {    // the 
@@ -131,8 +135,9 @@ namespace BattleAnimeSystem {
         }
 
          public virtual Vector2 GetLaunchPosition() {    // the 
-            Vector2 pos = mOriginPosition;
-            pos.x -= 2 * GetSideFactor();
+            Vector2 pos = GetCenterPosition();
+            pos.x -= 0.5f * GetSideFactor();
+			//pos.y 
 
             return pos;
         }

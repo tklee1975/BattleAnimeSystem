@@ -7,11 +7,12 @@ using BattleAnimeSystem;
 
 public class FightDemoTest : BaseTest {
 	[Header("Team Formation")]
-	public BattleModel[] leftTeam;
-	public BattleModel[] rightTeam;
+	public Model[] leftTeam;
+	public Model[] rightTeam;
 
-	[Header("Projectile Prefab")]
+	[Header("Projectile & Effect")]
 	public GameObject[] projectilePrefab;
+	public GameObject[] effectPrefab;
 
 
 	[Header("Effects")]
@@ -31,7 +32,7 @@ public class FightDemoTest : BaseTest {
 		Debug.Log("###### TEST 1 ######");
 		SequenceAction demoFight = new SequenceAction();
 
-		BattleModel actor, target;
+		Model actor, target;
 
 
 		// Right-0 attack Left-0
@@ -58,23 +59,112 @@ public class FightDemoTest : BaseTest {
 		actionManager.RunAction(demoFight);
 	}
 
-	public void AttackFromTeam(SequenceAction sequence, BattleModel[] attackTeam, BattleModel[] targetTeam) {
+	[Test]
+	public void SkillAttack()
+	{
+		SequenceAction demoFight = new SequenceAction();
+		Model actor, target;
+
+		
+		// -----
+
+
+		AnimeAction projectileAttack;
+		AnimeAction attack;
+
+		// Right-0 attack Left-0
+		actor = rightTeam[0]; 
+		target = leftTeam[0];
+
+		projectileAttack = CreateProjectileAction(actor, target, projectilePrefab[0], effectPrefab[0]);
+		attack = CreateAttackAction(actor, target, 0, 
+							false, projectileAttack);
+		demoFight.AddAction(attack);
+
+
+		// Right-1 attack Left-1
+		actor = rightTeam[1]; 
+		target = leftTeam[1];
+
+		projectileAttack = CreateProjectileAction(actor, target, projectilePrefab[0], effectPrefab[0]);
+		attack = CreateAttackAction(actor, target, 0, 
+							false, projectileAttack);
+		demoFight.AddAction(attack);
+
+		// -----
+		actionManager.RunAction(demoFight);
+	}
+
+
+	[Test]
+	public void TestProject()
+	{
+		Model actor, target;
+		actor = rightTeam[0]; 
+		target = leftTeam[0];
+
+		AnimeAction action = CreateProjectileAction(actor, target, projectilePrefab[0], effectPrefab[0]);
+
+		actionManager.RunAction(action);
+	}
+
+	
+	public void AttackFromTeam(SequenceAction sequence, Model[] attackTeam, Model[] targetTeam) {
 		for(int i=0; i<attackTeam.Length; i++) {
-			BattleModel actor = attackTeam[i];
-			BattleModel target = targetTeam[i];
+			Model actor = attackTeam[i];
+			Model target = targetTeam[i];
 
 			short style = (short) Random.Range(0, 2);
 
 			AnimeAction attackAttack = CreateAttackAction(actor, target, style, 
 							true, CreateHitDamageAction(target, slashEffect[0]));
 			sequence.AddAction(attackAttack);
-			//for(BattleModel actor in attackTeam) {	
+			//for(Model actor in attackTeam) {	
 		}
 	}
 
 	
 	#region Action Creation Helper
-	public AnimeAction CreateHitDamageAction(BattleModel targetModel, 
+	public AnimeAction CreateProjectileAction(Model actor, 
+											  Model target, 
+											  GameObject projectile,
+											  GameObject hitEffect) 
+											  {
+		// Sequence: Projectile Movement, Hit Effect, ModelHit HitValue 										  
+		
+		SequenceAction sequence = new SequenceAction();
+
+		Vector3 launchPos = actor.GetLaunchPosition();
+		Vector3 targetCenterPos = (Vector3) target.GetCenterPosition() + new Vector3(0, 0, -5);
+		Vector3 targetPos = (Vector3) target.GetOriginPosition() + new Vector3(0, 0, -5);
+		float duration = 0.5f;
+
+		// Projectile Move
+		EffectAction projectileAction = EffectAction.CreateProjectileEffect(
+										projectile, launchPos, targetCenterPos, duration);		
+		sequence.AddAction(projectileAction);
+
+		// Hit Effect
+		EffectAction effectAction = EffectAction.CreatePointEffect(hitEffect, targetPos);
+		sequence.AddAction(effectAction);
+
+		ModelHitAction hitAction = new ModelHitAction();
+		hitAction.name = "enemyHit";
+		hitAction.actor = target;
+		sequence.AddAction(hitAction);
+
+
+		HitValueAction damageAction = new HitValueAction();
+		damageAction.valueTextPrefab = hitValuePrefab;
+		damageAction.hitValue = 1000;
+		damageAction.position = target.transform.position + new Vector3(0, 2, -2);
+		sequence.AddAction(damageAction);
+
+		return sequence;
+	}
+
+
+	public AnimeAction CreateHitDamageAction(Model targetModel, 
 					AnimationClip hitEffect=null) {
 		SequenceAction sequence = new SequenceAction();
 		sequence.name = "HitSequence";
@@ -102,7 +192,7 @@ public class FightDemoTest : BaseTest {
 	}
 
 
-	public ModelAttackAction CreateAttackAction(BattleModel actor, BattleModel target, 
+	public ModelAttackAction CreateAttackAction(Model actor, Model target, 
 							short style, bool isMoving, AnimeAction onHitAction) {
 		ModelAttackAction attackAction = new ModelAttackAction();
 		attackAction.actor = actor;

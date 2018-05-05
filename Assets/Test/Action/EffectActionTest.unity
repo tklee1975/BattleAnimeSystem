@@ -221,6 +221,8 @@ MonoBehaviour:
   actionManager: {fileID: 1360759511}
   effectPrefab: {fileID: 1714835854569274, guid: 5ec336b47240f48bb8c2c98e759bd875,
     type: 2}
+  projectilePrefab: {fileID: 1415036837641838, guid: f8ccb4e1b446c4e86a37a29b737d6bdb,
+    type: 2}
 --- !u!4 &920519422
 Transform:
   m_ObjectHideFlags: 0

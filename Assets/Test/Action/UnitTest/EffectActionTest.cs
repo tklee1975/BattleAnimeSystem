@@ -8,13 +8,24 @@ using BattleAnimeSystem;
 public class EffectActionTest : BaseTest {
 	public AnimeActionManager actionManager;
 	public GameObject effectPrefab;
+	public GameObject projectilePrefab;
 
 	[Test]
-	public void testSimple()
+	public void PointEffect()
 	{
-		EffectAction effectAction = new EffectAction();
-		effectAction.effectPrefab = effectPrefab;
-		effectAction.targetPostion = Vector3.zero;
+		EffectAction effectAction = EffectAction.CreatePointEffect(effectPrefab, Vector3.zero);
+
+		actionManager.RunAction(effectAction);
+	}
+
+	[Test]
+	public void ProjectileEffect()
+	{
+		Vector3 from = new Vector3(3, 2, 0);
+		Vector3 to = new Vector3(-2, 3, 4);
+		float duration = 1.0f;
+
+		EffectAction effectAction = EffectAction.CreateProjectileEffect(projectilePrefab, from, to, duration);
 
 		actionManager.RunAction(effectAction);
 	}
@@ -30,10 +41,8 @@ public class EffectActionTest : BaseTest {
 			float x = Random.Range(-4f, 4f);
 			float y = Random.Range(-2f, 2f);
 
-			EffectAction effectAction = new EffectAction();
-			effectAction.effectPrefab = effectPrefab;
-			effectAction.repeat = 10;
-			effectAction.targetPostion = new Vector3(x, y, -5);
+			Vector3 spawnPos = new Vector3(x, y, -5);
+			EffectAction effectAction = EffectAction.CreatePointEffect(effectPrefab, spawnPos, null, 3);
 			parallel.AddAction(effectAction);
 		}
 
