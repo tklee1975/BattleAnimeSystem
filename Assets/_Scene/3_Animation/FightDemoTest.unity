@@ -519,8 +519,10 @@ MonoBehaviour:
   - {fileID: 994651166}
   projectilePrefab:
   - {fileID: 1415036837641838, guid: f8ccb4e1b446c4e86a37a29b737d6bdb, type: 2}
+  - {fileID: 1714835854569274, guid: 5ec336b47240f48bb8c2c98e759bd875, type: 2}
   effectPrefab:
   - {fileID: 1714835854569274, guid: 5ec336b47240f48bb8c2c98e759bd875, type: 2}
+  - {fileID: 1900822845129404, guid: d629ab739f3554e6e9b9312d73dec538, type: 2}
   skillEffect:
   - {fileID: 0}
   - {fileID: 0}

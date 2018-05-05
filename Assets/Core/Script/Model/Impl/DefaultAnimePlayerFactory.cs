@@ -14,6 +14,10 @@ namespace BattleAnimeSystem {
 
         public override IEffectAnimePlayer CreateEffectPlayer(GameObject obj) {
             return new EffectAnimePlayerAnimator(obj);
+        }    
+
+         public override ITextAnimePlayer CreateTextPlayer(GameObject obj) {
+            return new TextAnimePlayerAnimator(obj);
         }       
     }
 }

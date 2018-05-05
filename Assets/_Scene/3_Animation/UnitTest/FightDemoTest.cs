@@ -86,7 +86,7 @@ public class FightDemoTest : BaseTest {
 		actor = rightTeam[1]; 
 		target = leftTeam[1];
 
-		projectileAttack = CreateProjectileAction(actor, target, projectilePrefab[0], effectPrefab[0]);
+		projectileAttack = CreateProjectileAction(actor, target, projectilePrefab[1], effectPrefab[1]);
 		attack = CreateAttackAction(actor, target, 1, 
 							false, projectileAttack);
 		demoFight.AddAction(attack);

@@ -10,5 +10,6 @@ namespace BattleAnimeSystem {
         // Animation 
         public abstract IModelAnimePlayer CreateModelPlayer(GameObject obj);        
         public abstract IEffectAnimePlayer CreateEffectPlayer(GameObject obj);        
+        public abstract ITextAnimePlayer CreateTextPlayer(GameObject obj);        
     }
 }
