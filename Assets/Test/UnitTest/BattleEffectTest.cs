@@ -8,7 +8,10 @@ using BattleAnimeSystem;
 public class BattleEffectTest : BaseTest {
 	public BattleEffect testEffect;
 	public GameObject effectPrefab;
+	public GameObject[] allEffectPrefab;
 	public GameObject projectilePrefab;
+
+	[Range(0, 3)] public int testEffectIndex = 0;
 
 	/// <summary>
 	/// Start is called on the frame when a script is enabled just before
@@ -46,6 +49,25 @@ public class BattleEffectTest : BaseTest {
 		Vector3 to = new Vector3(3, 2, -1);
 		testEffect.Move(from, to, 1.0f, 
 			() => { AppendLog("OnEnd"); }
+		);
+	}
+
+	[Test]
+	public void TestEffect()
+	{
+		GameObject effectPrefab = allEffectPrefab[testEffectIndex];
+		UpdateLog("Test Effect: effectPrefab=" + effectPrefab.name);
+		// Vector3 from = new Vector3(-3, 2, 0);
+		// Vector3 to = new Vector3(3, 2, -1);
+		// testEffect.Move(from, to, 1.0f, 
+		// 	() => { AppendLog("OnEnd"); }
+		// );
+		GameObject obj = GameObject.Instantiate(effectPrefab);
+		obj.transform.position = Vector3.zero;
+		Effect effect = obj.GetComponent<Effect>();
+		effect.PlayOnce(
+			() => { AppendLog("OnEnd");  GameObject.Destroy(obj); },
+			() => { AppendLog("OnHit"); }
 		);
 	}
 

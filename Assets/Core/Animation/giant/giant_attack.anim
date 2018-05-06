@@ -24,13 +24,13 @@ AnimationClip:
       value: {fileID: 21300016, guid: b1bfa416ccf7b4c0994ece39926644fe, type: 3}
     - time: 0.31666666
       value: {fileID: 21300018, guid: b1bfa416ccf7b4c0994ece39926644fe, type: 3}
-    - time: 0.43333334
+    - time: 0.5
       value: {fileID: 21300020, guid: b1bfa416ccf7b4c0994ece39926644fe, type: 3}
-    - time: 0.53333336
+    - time: 0.5833333
       value: {fileID: 21300022, guid: b1bfa416ccf7b4c0994ece39926644fe, type: 3}
     - time: 0.65
       value: {fileID: 21300024, guid: b1bfa416ccf7b4c0994ece39926644fe, type: 3}
-    - time: 0.78333336
+    - time: 0.75
       value: {fileID: 21300026, guid: b1bfa416ccf7b4c0994ece39926644fe, type: 3}
     attribute: m_Sprite
     path: 
@@ -63,7 +63,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.8
+    m_StopTime: 0.76666665
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -84,7 +84,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
-  - time: 0.75
+  - time: 0.53333336
     functionName: OnEvent
     data: hit
     objectReferenceParameter: {fileID: 0}

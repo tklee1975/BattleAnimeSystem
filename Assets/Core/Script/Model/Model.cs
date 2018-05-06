@@ -89,6 +89,9 @@ namespace BattleAnimeSystem {
 		
 		// Update is called once per frame
 		void Update () {
+			if(mAnimePlayer == null) {
+				return;
+			}
 			mAnimePlayer.Update(Time.deltaTime);
 		}
 
@@ -112,7 +115,23 @@ namespace BattleAnimeSystem {
 
         #endregion
 
-		//protected voi
+		
+		void OnDrawGizmos() {
+			//Debug.Log("OnDrawGizmos!");
+			Gizmos.color = new Color(1, 0, 0, 0.5F);
+        	Gizmos.DrawCube(transform.position, new Vector3(0.5f, 0.5f, 1));
+
+			// Center Position 
+			Gizmos.color = new Color(0, 1, 0, 0.5F);
+        	Gizmos.DrawCube(GetCenterPosition(), new Vector3(0.5f, 0.5f, 1));
+
+			// Center Position 
+			Gizmos.color = new Color(1, 0, 0, 0.5F);
+        	//Gizmos.DrawCube(GetLaunchPosition(), new Vector3(0.5f, 0.5f, 1));
+			//Gizmos.DrawIcon(GetLaunchPosition(), "icon_bow.png", true);
+			Gizmos.DrawSphere(GetLaunchPosition(), 0.2f);
+
+		}
 
         #region Position Information 
 		public Vector2 GetPosition() {
@@ -134,7 +153,11 @@ namespace BattleAnimeSystem {
             return attackPos;
         }
 
-         public virtual Vector2 GetLaunchPosition() {    // the 
+		public virtual Vector2 GetLaunchPosition(int index) {    // the 
+           return GetLaunchPosition();
+        }
+
+        public virtual Vector2 GetLaunchPosition() {    // the 
             Vector2 pos = GetCenterPosition();
             pos.x -= 0.5f * GetSideFactor();
 			//pos.y 

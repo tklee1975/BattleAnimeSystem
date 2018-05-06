@@ -37,6 +37,7 @@ namespace BattleAnimeSystem {
         } 
 
         protected void OnAnimeEnd() {        
+            Debug.Log("OnAnimeEnd: ended");
             if(mEndCallback != null) {
                 mEndCallback();
             }
@@ -51,6 +52,7 @@ namespace BattleAnimeSystem {
        
         public override void Play(GameText.Style style, AnimeCallback endCallback)
         {
+
              // Error Handling 
             if(mAnimator == null) {
                 if(endCallback != null) {
@@ -59,6 +61,7 @@ namespace BattleAnimeSystem {
                 return;
             }
 
+            mEndCallback = endCallback;
             string triggerName = style.ToString();
             Debug.Log("TextAnimePlayer: triggerName=" + triggerName);
             mAnimator.SetTrigger(triggerName);

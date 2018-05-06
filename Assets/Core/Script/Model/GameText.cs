@@ -13,8 +13,9 @@ namespace BattleAnimeSystem {
      */
 	public abstract class GameText : MonoBehaviour {
 		public enum Style {
-			Damage = 0,
-			Buff = 1, 
+			Default = 0,		// just used when do the setting
+			Damage = 1,
+			Buff = 2, 
 		}
 
 		public string text = "";

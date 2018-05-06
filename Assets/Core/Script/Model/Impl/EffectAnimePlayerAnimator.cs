@@ -38,6 +38,7 @@ namespace BattleAnimeSystem {
         }
 
         protected void OnAnimeEnd() {
+            Debug.Log("End Event Received");
             mRepeatCount--;
             if(mRepeatCount >= 1) {
                 // Play Again
@@ -63,6 +64,7 @@ namespace BattleAnimeSystem {
             eventName = eventName.ToLower();
 
             if("hit" == eventName) {
+                Debug.Log("Hit Event Received");
                 if(mHitCallback != null) {
                     mHitCallback();
                 }    
@@ -82,6 +84,7 @@ namespace BattleAnimeSystem {
         {
              // Error Handling 
             if(mAnimator == null) {
+                Debug.Log("Debug: PlayRepeat: animator is null");
                 if(endCallback != null) {
                     endCallback();
                 }

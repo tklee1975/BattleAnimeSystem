@@ -117,7 +117,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_GenerateMotionCurves: 0
   m_Events:
-  - time: 0.78333336
+  - time: 0.73333335
     functionName: OnEvent
     data: hit
     objectReferenceParameter: {fileID: 0}

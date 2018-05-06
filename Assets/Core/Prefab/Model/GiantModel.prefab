@@ -54,7 +54,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4606009239709220}
-  - component: {fileID: 114759790222840874}
+  - component: {fileID: 114787773049630694}
   m_Layer: 5
   m_Name: GiantModel
   m_TagString: Untagged
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e4ab8d44cbf14397bde388b0396ff8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &114759790222840874
+--- !u!114 &114787773049630694
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -152,11 +152,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1988602447406916}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 57a1a506506dc4c4fbdb6b1a4f78ea0d, type: 3}
+  m_Script: {fileID: 11500000, guid: 82fa2c7cb6a9d4eba9a7a7447f979f72, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveDuration: 0.3
-  faceDir: 0
+  faceDir: 1
 --- !u!212 &212307629167605258
 SpriteRenderer:
   m_ObjectHideFlags: 1

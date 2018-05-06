@@ -80,6 +80,7 @@ namespace BattleAnimeSystem {
 		}
 
 		void HandleEndCallback() {
+			Debug.Log("HandleEndCallback: hitCount=" + mOnHitCount);
 			if(mOnHitCount == 0) {	// Do OnHit callback before End 
 				if(mOnHitCallback != null) {
 					mOnHitCallback();
@@ -92,8 +93,9 @@ namespace BattleAnimeSystem {
 		}
 
 		void HandleHitCallback() {
-			if(mOnEndCallback != null) {
-				mOnEndCallback();
+			mOnHitCount++;
+			if(mOnHitCallback != null) {
+				mOnHitCallback();
 			}
 		}
 

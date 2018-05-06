@@ -23,6 +23,7 @@ public class FightDemoTest : BaseTest {
 	public GameObject hitValuePrefab;
 	public AnimeActionManager actionManager;
 
+	public GameObject damageTextPrefab;
 
 	const float zOrderVfx = -3;
 
@@ -44,7 +45,7 @@ public class FightDemoTest : BaseTest {
 		// Left-0 attack Right-1
 		actor = leftTeam[0];  target=rightTeam[0];
 		AnimeAction p2Attack = CreateAttackAction(actor, target, 0, 
-							true, CreateHitDamageAction(target, slashEffect[0]));
+							true, CreateHitDamageAction(target, effectPrefab[1]));
 		demoFight.AddAction(p2Attack);
 
 		actionManager.RunAction(demoFight);
@@ -117,7 +118,7 @@ public class FightDemoTest : BaseTest {
 			short style = (short) Random.Range(0, 2);
 
 			AnimeAction attackAttack = CreateAttackAction(actor, target, style, 
-							true, CreateHitDamageAction(target, slashEffect[0]));
+							true, CreateHitDamageAction(target, effectPrefab[0]));
 			sequence.AddAction(attackAttack);
 			//for(Model actor in attackTeam) {	
 		}
@@ -145,50 +146,69 @@ public class FightDemoTest : BaseTest {
 		sequence.AddAction(projectileAction);
 
 		// Hit Effect
+		ParallelAction damagePack = new ParallelAction();
+		sequence.AddAction(damagePack);
+
 		EffectAction effectAction = EffectAction.CreatePointEffect(hitEffect, targetPos);
-		sequence.AddAction(effectAction);
+		damagePack.AddAction(effectAction);
 
 		ModelHitAction hitAction = new ModelHitAction();
 		hitAction.name = "enemyHit";
 		hitAction.actor = target;
-		sequence.AddAction(hitAction);
+		damagePack.AddAction(hitAction);
 
 
-		HitValueAction damageAction = new HitValueAction();
-		damageAction.valueTextPrefab = hitValuePrefab;
-		damageAction.hitValue = 1000;
-		damageAction.position = target.transform.position + new Vector3(0, 2, -2);
-		sequence.AddAction(damageAction);
+		int damage = Random.Range(500, 10000);
+		GameTextAction damageAction = GameTextAction.Create(
+						damageTextPrefab, damage.ToString(), target.transform.position + new Vector3(0, 2, -2));	
+		damagePack.AddAction(damageAction);
 
 		return sequence;
 	}
 
 
 	public AnimeAction CreateHitDamageAction(Model targetModel, 
-					AnimationClip hitEffect=null) {
-		SequenceAction sequence = new SequenceAction();
-		sequence.name = "HitSequence";
+					GameObject hitEffect=null) {
+		ParallelAction hitDamagePack = new ParallelAction();
 
-		if(hitEffect != null) {
-			SimpleAnimationAction effectAction = new SimpleAnimationAction();
-			effectAction.clip = hitEffect;
-			effectAction.spawnPosition = targetModel.transform.position  + new Vector3(0, 1, -2);
-			sequence.AddAction(effectAction);
-		}
+		hitDamagePack.name = "HitDamage";
+
 
 		ModelHitAction hitAction = new ModelHitAction();
 		hitAction.name = "enemyHit";
 		hitAction.actor = targetModel;
-		sequence.AddAction(hitAction);
+		hitDamagePack.AddAction(hitAction);
+
+		GameTextAction damageAction = new GameTextAction();
+		damageAction.textPrefab = damageTextPrefab;
+		damageAction.text = 1000.ToString();
+		damageAction.spawnPostion = targetModel.transform.position + new Vector3(0, 2, -2);
+
+		hitDamagePack.AddAction(damageAction);
+
+		if(hitEffect == null) {
+			return hitDamagePack;
+		}
+		// 
+
+		EffectAction effectAction = EffectAction.CreatePointEffect(hitEffect,
+											 targetModel.GetPosition());
+											 
+		effectAction.onHitAction = hitDamagePack;									 
+		return effectAction;									 
 
 
-		HitValueAction damageAction = new HitValueAction();
-		damageAction.valueTextPrefab = hitValuePrefab;
-		damageAction.hitValue = 1000;
-		damageAction.position = targetModel.transform.position + new Vector3(0, 2, -2);
-		sequence.AddAction(damageAction);
+		// SimpleAnimationAction effectAction = new SimpleAnimationAction();
+		// 	effectAction.clip = hitEffect;
+		// 	effectAction.spawnPosition = targetModel.transform.position  + new Vector3(0, 1, -2);
+		// 	hitDamagePack.AddAction(effectAction);
+		// }
 
-		return sequence;
+		
+		
+
+		
+		// return hitDamagePack;
 	}
 
 

@@ -74,7 +74,7 @@ namespace BattleAnimeSystem
                 {
                     continue;
                 }
-                Debug.Log("UpdateActionList: " + action.name + " delta=" + mDeltaTime);
+              //  Debug.Log("UpdateActionList: " + action.name + " delta=" + mDeltaTime);
                 action.Update(mDeltaTime);
             }
         }

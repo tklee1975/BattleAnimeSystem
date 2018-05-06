@@ -737,7 +737,7 @@ Prefab:
     - target: {fileID: 224358359807029866, guid: 488147d7c93ed4f52b9f9fee6e7a3306,
         type: 2}
       propertyPath: m_AnchorMin.y
-      value: 0.7666666
+      value: 0.7666667
       objectReference: {fileID: 0}
     - target: {fileID: 224358359807029866, guid: 488147d7c93ed4f52b9f9fee6e7a3306,
         type: 2}
@@ -1198,7 +1198,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2042906424}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0.66, y: 0.39, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 785178051}
@@ -1216,7 +1216,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1af225451df15463b9157a03e398db7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDuration: 0.3
 --- !u!1 &2113983672
 GameObject:
   m_ObjectHideFlags: 0
@@ -1288,5 +1287,5 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
