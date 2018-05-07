@@ -17,6 +17,7 @@ namespace BattleAnimeSystem {
 			Right,
 		};
 
+
         const float kFrontZPosition = -5;    // the z position to make the character bring to front
 
 		protected AnimePlayerFactory mAnimePlayerFactory = null;
@@ -126,15 +127,18 @@ namespace BattleAnimeSystem {
         	Gizmos.DrawCube(GetCenterPosition(), new Vector3(0.5f, 0.5f, 1));
 
 			// Center Position 
-			Gizmos.color = new Color(1, 0, 0, 0.5F);
-        	//Gizmos.DrawCube(GetLaunchPosition(), new Vector3(0.5f, 0.5f, 1));
-			//Gizmos.DrawIcon(GetLaunchPosition(), "icon_bow.png", true);
-			Gizmos.DrawSphere(GetLaunchPosition(), 0.2f);
+			for(int i=0; i<2; i++) {
+				Gizmos.color = new Color(1, 0, 0, 0.5F);
+				//Gizmos.DrawCube(GetLaunchPosition(), new Vector3(0.5f, 0.5f, 1));
+				//Gizmos.DrawIcon(GetLaunchPosition(), "icon_bow.png", true);
+				Gizmos.DrawSphere(GetLaunchPosition(i), 0.2f);
+			}
 
 		}
 
         #region Position Information 
 		public Vector2 GetPosition() {
+			//Debug.Log("Mode.position=" + transform.position + " / " + transform.localPosition);
 			return transform.position;
 		}
 
@@ -146,23 +150,29 @@ namespace BattleAnimeSystem {
 		 	return (transform.position + new Vector3(0, 1, 0));
         }
 
-        public virtual Vector2 GetCloseAttackPosition(Vector3 targetPos) {    // the 
-            Vector2 attackPos = targetPos;
-            attackPos.x = 2 * GetSideFactor();
+
+        public virtual Vector2 GetCloseAttackPosition(Vector3 targetPos, int attackStyle=0) {    // the 
+            Vector2 launchPos = GetLaunchPosition(attackStyle);
+			float attackRange = Mathf.Abs(transform.position.x - launchPos.x);
+			
+			Vector2 attackPos = targetPos;
+
+
+            attackPos.x += attackRange * GetSideFactor();
 
             return attackPos;
         }
 
 		public virtual Vector2 GetLaunchPosition(int index) {    // the 
-           return GetLaunchPosition();
-        }
-
-        public virtual Vector2 GetLaunchPosition() {    // the 
             Vector2 pos = GetCenterPosition();
             pos.x -= 0.5f * GetSideFactor();
 			//pos.y 
 
             return pos;
+        }
+
+        public virtual Vector2 GetLaunchPosition() {    // the 
+           	return GetLaunchPosition(0);
         }
 
         public virtual Vector2 GetAttackPosition() {    // the 
@@ -248,6 +258,7 @@ namespace BattleAnimeSystem {
 
 			Move(transform.position, mOriginPosition, moveDuration, () => {
 						Debug.Log("MoveBack Finished!");
+						transform.position = mOriginPosition;
 						ShowIdleAnime();
 						if(callback != null) {
 							callback();

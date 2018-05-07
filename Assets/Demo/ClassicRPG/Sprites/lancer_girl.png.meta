@@ -1,0 +1,2713 @@
+fileFormatVersion: 2
+guid: 8f7d0ce4714c84968bb0033edce2b2af
+timeCreated: 1525677817
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: lancer_girl_0
+    21300002: lancer_girl_1
+    21300004: lancer_girl_2
+    21300006: lancer_girl_3
+    21300008: lancer_girl_4
+    21300010: lancer_girl_5
+    21300012: lancer_girl_6
+    21300014: lancer_girl_7
+    21300016: lancer_girl_8
+    21300018: lancer_girl_9
+    21300020: lancer_girl_10
+    21300022: lancer_girl_11
+    21300024: lancer_girl_12
+    21300026: lancer_girl_13
+    21300028: lancer_girl_14
+    21300030: lancer_girl_15
+    21300032: lancer_girl_16
+    21300034: lancer_girl_17
+    21300036: lancer_girl_18
+    21300038: lancer_girl_19
+    21300040: lancer_girl_20
+    21300042: lancer_girl_21
+    21300044: lancer_girl_22
+    21300046: lancer_girl_23
+    21300048: lancer_girl_24
+    21300050: lancer_girl_25
+    21300052: lancer_girl_26
+    21300054: lancer_girl_27
+    21300056: lancer_girl_28
+    21300058: lancer_girl_29
+    21300060: lancer_girl_30
+    21300062: lancer_girl_31
+    21300064: lancer_girl_32
+    21300066: lancer_girl_33
+    21300068: lancer_girl_34
+    21300070: lancer_girl_35
+    21300072: lancer_girl_36
+    21300074: lancer_girl_37
+    21300076: lancer_girl_38
+    21300078: lancer_girl_39
+    21300080: lancer_girl_40
+    21300082: lancer_girl_41
+    21300084: lancer_girl_42
+    21300086: lancer_girl_43
+    21300088: lancer_girl_44
+    21300090: lancer_girl_45
+    21300092: lancer_girl_46
+    21300094: lancer_girl_47
+    21300096: lancer_girl_48
+    21300098: lancer_girl_49
+    21300100: lancer_girl_50
+    21300102: lancer_girl_51
+    21300104: lancer_girl_52
+    21300106: lancer_girl_53
+    21300108: lancer_girl_54
+    21300110: lancer_girl_55
+    21300112: lancer_girl_56
+    21300114: lancer_girl_57
+    21300116: lancer_girl_58
+    21300118: lancer_girl_59
+    21300120: lancer_girl_60
+    21300122: lancer_girl_61
+    21300124: lancer_girl_62
+    21300126: lancer_girl_63
+    21300128: lancer_girl_64
+    21300130: lancer_girl_65
+    21300132: lancer_girl_66
+    21300134: lancer_girl_67
+    21300136: lancer_girl_68
+    21300138: lancer_girl_69
+    21300140: lancer_girl_70
+    21300142: lancer_girl_71
+    21300144: lancer_girl_72
+    21300146: lancer_girl_73
+    21300148: lancer_girl_74
+    21300150: lancer_girl_75
+    21300152: lancer_girl_76
+    21300154: lancer_girl_77
+    21300156: lancer_girl_78
+    21300158: lancer_girl_79
+    21300160: lancer_girl_80
+    21300162: lancer_girl_81
+    21300164: lancer_girl_82
+    21300166: lancer_girl_83
+    21300168: lancer_girl_84
+    21300170: lancer_girl_85
+    21300172: lancer_girl_86
+    21300174: lancer_girl_87
+    21300176: lancer_girl_88
+    21300178: lancer_girl_89
+    21300180: lancer_girl_90
+    21300182: lancer_girl_91
+    21300184: lancer_girl_92
+    21300186: lancer_girl_93
+    21300188: lancer_girl_94
+    21300190: lancer_girl_95
+    21300192: lancer_girl_96
+    21300194: lancer_girl_97
+    21300196: lancer_girl_98
+    21300198: lancer_girl_99
+    21300200: lancer_girl_100
+    21300202: lancer_girl_101
+    21300204: lancer_girl_102
+    21300206: lancer_girl_103
+    21300208: lancer_girl_104
+    21300210: lancer_girl_105
+    21300212: lancer_girl_106
+    21300214: lancer_girl_107
+    21300216: lancer_girl_108
+    21300218: lancer_girl_109
+    21300220: lancer_girl_110
+    21300222: lancer_girl_111
+    21300224: lancer_girl_112
+    21300226: lancer_girl_113
+    21300228: lancer_girl_114
+    21300230: lancer_girl_115
+    21300232: lancer_girl_116
+    21300234: lancer_girl_117
+    21300236: lancer_girl_118
+    21300238: lancer_girl_119
+    21300240: lancer_girl_120
+    21300242: lancer_girl_121
+    21300244: lancer_girl_122
+    21300246: lancer_girl_123
+    21300248: lancer_girl_124
+    21300250: lancer_girl_125
+    21300252: lancer_girl_126
+    21300254: lancer_girl_127
+    21300256: lancer_girl_128
+    21300258: lancer_girl_129
+    21300260: lancer_girl_130
+    21300262: lancer_girl_131
+    21300264: lancer_girl_132
+    21300266: lancer_girl_133
+    21300268: lancer_girl_134
+    21300270: lancer_girl_135
+    21300272: lancer_girl_136
+    21300274: lancer_girl_137
+    21300276: lancer_girl_138
+    21300278: lancer_girl_139
+    21300280: lancer_girl_140
+    21300282: lancer_girl_141
+    21300284: lancer_girl_142
+    21300286: lancer_girl_143
+    21300288: lancer_girl_144
+    21300290: lancer_girl_145
+    21300292: lancer_girl_146
+    21300294: lancer_girl_147
+    21300296: lancer_girl_148
+    21300298: lancer_girl_149
+    21300300: lancer_girl_150
+    21300302: lancer_girl_151
+    21300304: lancer_girl_152
+    21300306: lancer_girl_153
+    21300308: lancer_girl_154
+    21300310: lancer_girl_155
+    21300312: lancer_girl_156
+    21300314: lancer_girl_157
+    21300316: lancer_girl_158
+    21300318: lancer_girl_159
+    21300320: lancer_girl_160
+    21300322: lancer_girl_161
+    21300324: lancer_girl_162
+    21300326: lancer_girl_163
+    21300328: lancer_girl_164
+    21300330: lancer_girl_165
+    21300332: lancer_girl_166
+    21300334: lancer_girl_167
+    21300336: lancer_girl_168
+    21300338: lancer_girl_169
+    21300340: lancer_girl_170
+    21300342: lancer_girl_171
+    21300344: lancer_girl_172
+    21300346: lancer_girl_173
+    21300348: lancer_girl_174
+    21300350: lancer_girl_175
+    21300352: lancer_girl_176
+    21300354: lancer_girl_177
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 32
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lancer_girl_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1279
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1279
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1279
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1279
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1279
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1279
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1279
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1215
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1215
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1215
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1215
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_11
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1215
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_12
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1215
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_13
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1215
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1151
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_15
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1151
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1151
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1151
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_18
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1151
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_19
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1151
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1151
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1087
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1087
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_23
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1087
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_24
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1087
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_25
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1087
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_26
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1087
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_27
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1087
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1023
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_29
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1023
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1023
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1023
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_32
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1023
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_33
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1023
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1023
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_35
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1023
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 959
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 959
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 959
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 959
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_40
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 959
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_41
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 959
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_42
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 959
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_43
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 959
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 895
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_45
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 895
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_46
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 895
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_47
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 895
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_48
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 895
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_49
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 895
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_50
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 895
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_51
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 895
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 831
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 831
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_54
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 831
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_55
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 831
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_56
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 831
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_57
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 831
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 831
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_59
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 831
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 767
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 767
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 767
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_63
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 767
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_64
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 767
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_65
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 767
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_66
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 767
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_67
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 767
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_68
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 767
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 703
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 703
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 703
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 703
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 703
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 703
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 703
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_76
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 703
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_77
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 703
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 639
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_79
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 639
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 639
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_81
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 639
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_82
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 639
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_83
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 639
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 639
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_85
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 639
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_86
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 639
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_87
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 575
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 575
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_89
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 575
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_90
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 575
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_91
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 575
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_92
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 575
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_93
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 575
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 575
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_95
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 575
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 511
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 511
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 511
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 511
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 511
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 511
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 447
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_104
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 447
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_105
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 447
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 447
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_107
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 447
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 383
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_110
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 383
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_111
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 383
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_112
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 383
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_113
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 383
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_114
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_115
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 319
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_116
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 319
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_117
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 319
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_118
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 319
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_119
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 319
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_121
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 255
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_122
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 255
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_123
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 255
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_124
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 255
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_125
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 255
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_126
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 255
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_127
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 255
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_128
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 255
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_129
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 255
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_130
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 255
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_131
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 255
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_132
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 255
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_133
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_134
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 191
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 191
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_136
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 191
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_137
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 191
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_138
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 191
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_139
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 191
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_140
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 191
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_141
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 191
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_142
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 191
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_143
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 191
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_144
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 191
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_145
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 191
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_146
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 127
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 127
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_149
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 127
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_150
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 127
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_151
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 127
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 127
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_153
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 127
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_154
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 127
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_155
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 127
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_156
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 127
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_157
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 127
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_158
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 127
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_159
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_160
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 63
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_161
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 63
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 63
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_163
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 63
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_164
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 63
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_165
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 63
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_166
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 63
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_167
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 63
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_168
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 63
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_169
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 63
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_170
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 63
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lancer_girl_171
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 63
+        width: 64
+        height: 64
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

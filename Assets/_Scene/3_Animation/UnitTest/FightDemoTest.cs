@@ -218,7 +218,8 @@ public class FightDemoTest : BaseTest {
 		attackAction.actor = actor;
 		attackAction.style = style;
 		attackAction.isMoving = isMoving;
-		attackAction.targetPostion = target.GetHitPosition();
+		attackAction.postionType = ModelAttackAction.PositionType.UseModel;
+		attackAction.targetModel = target;
 		attackAction.onHitAction = onHitAction;
 		
 		return attackAction;

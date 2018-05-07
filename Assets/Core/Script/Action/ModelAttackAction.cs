@@ -4,11 +4,17 @@ using UnityEngine;
 
 namespace BattleAnimeSystem { 
 	public class ModelAttackAction : ModelAction {
+		public enum PositionType {
+			UsePosition,
+			UseModel,
+		};
+
 		public AnimeAction onHitAction = null;
 		public short style = 0;
-
+		public PositionType postionType = PositionType.UsePosition;
 		public bool isMoving = true;
 		public Vector2 targetPostion = new Vector2(0, 0);
+		public Model targetModel = null;
 		
 		protected override void OnStart() {
 			if(name == "") {
@@ -24,9 +30,18 @@ namespace BattleAnimeSystem {
 			}
 		}
 
+		Vector2 GetMoveTargetPosition() {
+			if(postionType == PositionType.UseModel) {
+				return targetModel == null ? Vector2.zero 
+						: actor.GetCloseAttackPosition(targetModel.GetPosition(), style);
+			} else {
+				return targetPostion;
+			}
+		}
+
 		protected void StartMovingAttack() {
 
-			Vector2 endPos = targetPostion;
+			Vector2 endPos = GetMoveTargetPosition();
 
 			AnimeCallback hitCallback = () => {
 				OnAttackHit();

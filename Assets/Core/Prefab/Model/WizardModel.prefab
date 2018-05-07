@@ -175,7 +175,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDuration: 0.3
   faceDir: 0
-  launchPositionTF: {fileID: 4392597828470686}
+  launchPositionTF:
+  - {fileID: 4392597828470686}
 --- !u!114 &114980912002293936
 MonoBehaviour:
   m_ObjectHideFlags: 1

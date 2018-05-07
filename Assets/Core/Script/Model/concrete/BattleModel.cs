@@ -6,7 +6,7 @@ using UnityEngine;
 namespace BattleAnimeSystem { 
 	public class BattleModel : Model {
 		[Header("Position Setting")]
-		public Transform launchPositionTF;
+		public Transform[] launchPositionTF;
 
 		/// <summary>
 		/// Awake is called when the script instance is being loaded.
@@ -17,12 +17,19 @@ namespace BattleAnimeSystem {
 		//	base.Awake();
 		}
 			
+		Transform GetLaunchTF(int index) {
+			if(index >= launchPositionTF.Length) {
+				index = launchPositionTF.Length - 1;
+			}
 
-		public override Vector2 GetLaunchPosition() {
+			return launchPositionTF[index];
+		}
+
+		public override Vector2 GetLaunchPosition(int index) {
 			if(launchPositionTF == null) {
 				return base.GetLaunchPosition();
 			}
-			return launchPositionTF.position;
+			return GetLaunchTF(index).position;
 		}
 	}
 }
