@@ -14,18 +14,6 @@ public class CharMoveTest : BaseTest {
 	public AnimeActionManager actionManager;
 
 
-	[Test]
-	public void ShowMoveAnime()
-	{
-		hero.ShowMoveAnime();
-	}
-
-	[Test]
-	public void ShowAttackAnime()
-	{
-		hero.Attack(0);
-	}
-
 	public AnimeAction GetTargetHitDamageAction() {
 		SequenceAction sequence = new SequenceAction();
 		sequence.name = "HitSequence";
@@ -102,9 +90,9 @@ public class CharMoveTest : BaseTest {
 		};
 
 		hero.MoveForward(endPos, () => {
-			hero.Attack(1, hitCallback, ()=> {
+			hero.Attack(1, ()=> {
 				hero.MoveBack(endCallback);
-			});
+			}, hitCallback);
 		});
 	}
 
@@ -129,7 +117,7 @@ public class CharMoveTest : BaseTest {
 		};
 
 
-		hero.Attack(1, hitCallback, endCallback);
+		hero.Attack(1, endCallback, hitCallback);
 	}
 
 

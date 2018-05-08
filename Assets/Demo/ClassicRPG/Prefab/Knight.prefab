@@ -186,7 +186,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDuration: 0.3
   faceDir: 0
-  launchPositionTF: {fileID: 4186066516754214}
+  launchPositionTF:
+  - {fileID: 4186066516754214}
 --- !u!212 &212580067470364408
 SpriteRenderer:
   m_ObjectHideFlags: 1

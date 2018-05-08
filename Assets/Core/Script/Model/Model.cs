@@ -17,6 +17,11 @@ namespace BattleAnimeSystem {
 			Right,
 		};
 
+		public enum MoveType {
+			Forward,
+			Backward,
+		};
+
 
         const float kFrontZPosition = -5;    // the z position to make the character bring to front
 
@@ -25,16 +30,6 @@ namespace BattleAnimeSystem {
 
         public float moveDuration = 0.3f;
 		public Dir faceDir = Dir.Left; 
-
-		protected AnimeEvent mAnimeEvent;
-
-		//public delegate void Callback();
-
-		// 
-		protected AnimeCallback mHitCallback;
-		protected AnimeCallback mEndCallback;
-		protected AnimeCallback mMoveCallback;
-		
 
 		protected Vector3 mOriginPosition;
 		protected Vector2 mTargetPosition;
@@ -51,13 +46,7 @@ namespace BattleAnimeSystem {
 		/// </summary>
 		void Awake()
 		{
-			mAnimeEvent = GetComponentInChildren<AnimeEvent>();
-			// Animation Event Callback 
-			if(mAnimeEvent != null) {
-				mAnimeEvent.EndCallback = OnAnimeEnd;        // called by end_clip
-				mAnimeEvent.Callback = OnAnimeEvent;         // 
-			}
-
+			
             // Position 
 			mOriginPosition = transform.position;
 
@@ -96,27 +85,6 @@ namespace BattleAnimeSystem {
 			mAnimePlayer.Update(Time.deltaTime);
 		}
 
-
-        #region Animation Events 
-
-		protected virtual void OnAnimeEvent(string evt) {
-			Debug.Log("OnAnimeEvent_" + (mDebugCounter++) + ": " + evt);
-			if(evt.ToLower() == "hit") {
-				if(mHitCallback != null) {
-					mHitCallback();
-				}
-			}
-		}
-
-		protected virtual void OnAnimeEnd() {
-			if(mEndCallback != null) {
-				mEndCallback();
-			}		
-		}
-
-        #endregion
-
-		
 		void OnDrawGizmos() {
 			//Debug.Log("OnDrawGizmos!");
 			Gizmos.color = new Color(1, 0, 0, 0.5F);
@@ -209,38 +177,23 @@ namespace BattleAnimeSystem {
 
         #region Model Action Logic 
 
-		public virtual void Move(Vector2 targetPos) {
-			ShowMoveAnime();
-			MoveTo(targetPos, moveDuration, () => {
-				ShowIdleAnime();
-			});
-		}
+		
 
 		public virtual void Hit(AnimeCallback endCallback = null)
 		{
-			mEndCallback = () => {
-				if(endCallback != null) {
-					endCallback();
-				}
-				mEndCallback = null;
-			};
-
-			ShowHitAnime();
+			mAnimePlayer.ShowHit(endCallback);
 		}
 
-		public virtual void Attack(short style, AnimeCallback hitCallback = null, AnimeCallback endCallback = null)
+		public virtual void Attack(short style,  AnimeCallback endCallback = null, AnimeCallback hitCallback = null)
 		{
-			mHitCallback = hitCallback;
-			mEndCallback = () => {
-				Debug.Log("Attack:EndCallback");
-				if(endCallback != null) {
-					endCallback();
-				}
-				mEndCallback = null;
-				mHitCallback = null;
-			};
+			mAnimePlayer.ShowAttack(style, endCallback, hitCallback);
+		}
 
-			ShowAttackAnime(style);
+		public virtual void Move(Vector2 targetPos) {
+			//ShowMoveAnime();
+			MoveForward(targetPos, () => {
+				ShowIdleAnime();
+			});
 		}
 
 		public virtual void MoveForward(Vector2 targetPos, AnimeCallback callback = null) {
@@ -248,24 +201,29 @@ namespace BattleAnimeSystem {
 			mOriginPosition = transform.position;
 
 			// 
-			ShowForwardAnime();
-
-			Move(transform.position, endPos, moveDuration, callback);
+			mAnimePlayer.Move(MoveType.Forward, transform.position, endPos, moveDuration, callback);
 		}
 
 		public virtual void MoveBack(AnimeCallback callback = null) {
-			ShowBackwardAnime();
-
-			Move(transform.position, mOriginPosition, moveDuration, () => {
+			mAnimePlayer.Move(MoveType.Backward, transform.position, mOriginPosition, moveDuration,
+					() => {
 						Debug.Log("MoveBack Finished!");
 						transform.position = mOriginPosition;
 						ShowIdleAnime();
 						if(callback != null) {
 							callback();
 						}
-					}
-			);
+					});
 		}
+
+		public virtual void Die(AnimeCallback endCallback) {
+			mAnimePlayer.ShowDie(endCallback);
+		}
+
+		public virtual void Resurrect(bool animated, AnimeCallback endCallback) {
+			mAnimePlayer.Resurrect(animated, endCallback);
+		}
+
 
         #endregion
 		
@@ -275,7 +233,7 @@ namespace BattleAnimeSystem {
         // #region Movement Logic
 		void Move(Vector3 from, Vector3 to, float duration, AnimeCallback callback)
 		{
-			mAnimePlayer.Move(from, to, duration, callback);
+			//mAnimePlayer.Move(from, to, duration, callback);
 		}
       
         public void MoveTo(Vector3 targetPos, float duration, AnimeCallback callback) {
@@ -287,33 +245,9 @@ namespace BattleAnimeSystem {
 
         // #endregion
 
-        #region Animation Logic
-    	public void ShowAttackAnime(short style) {
-			mAnimePlayer.ShowAttack(style);
-		}
-
-        public void ShowMoveAnime() {
-			ShowForwardAnime();
-		}
-
-		public void ShowForwardAnime() {
-			mAnimePlayer.ShowMoveForward();
-		}
-
-		public void ShowBackwardAnime() {
-			mAnimePlayer.ShowMoveBackward();
-		}
-
 		public void ShowIdleAnime() {
 			mAnimePlayer.ShowIdle();
 		}
-
-        public void ShowHitAnime() {
-			mAnimePlayer.ShowHit();
-		}
-
-        #endregion
-
 
     }
 }

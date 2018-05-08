@@ -56,15 +56,15 @@ namespace BattleAnimeSystem {
 			Debug.Log("Start Moving Fwd");
 			actor.MoveForward(endPos, () => {
 				Debug.Log("Start Attack");
-				actor.Attack(style, hitCallback, ()=> {
+				actor.Attack(style, ()=> {
 					Debug.Log("Start Move Bak");
 					actor.MoveBack(endCallback);
-				});
+				}, hitCallback);
 			});
 		}
 
 		protected void StartStandingAttack() {
-			actor.Attack(style, OnAttackHit, MarkAsDone);
+			actor.Attack(style, MarkAsDone, OnAttackHit);
 		}
 
 		protected void OnAttackHit() {

@@ -705,7 +705,7 @@ Transform:
   - {fileID: 1864138238}
   - {fileID: 1872061661}
   m_Father: {fileID: 1429683677}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1319777138
 Prefab:
@@ -1023,8 +1023,8 @@ RectTransform:
   m_Children:
   - {fileID: 1721378238}
   - {fileID: 1351785348}
-  - {fileID: 657003897}
   - {fileID: 1280385068}
+  - {fileID: 657003897}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

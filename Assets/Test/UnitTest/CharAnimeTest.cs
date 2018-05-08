@@ -32,8 +32,8 @@ public class CharAnimeTest : BaseTest {
 	{
 		UpdateLog("Attack Test");
 		testModel.Attack(0, 
-						() => { AppendLog("Hit Triggered!"); }, 
-						() => { AppendLog("Attack Done!"); }
+						() => { AppendLog("Attack Done!"); },
+						() => { AppendLog("Hit Triggered!"); }						
 				);
 	}
 
@@ -42,9 +42,19 @@ public class CharAnimeTest : BaseTest {
 	{
 		UpdateLog("Skill Test");
 		testModel.Attack(1, 
-						() => { AppendLog("Hit Triggered!"); }, 
-						() => { AppendLog("Skill Done!"); }
+						() => { AppendLog("Skill Done!"); },
+						() => { AppendLog("Hit Triggered!"); }						
 				);
+	}
+
+	[Test]
+	public void testDie()
+	{
+		UpdateLog("Test Die");
+
+		testModel.Die(() => {
+			AppendLog("Die Done");
+		});
 	}
 
 	[Test]

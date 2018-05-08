@@ -9,6 +9,10 @@ namespace BattleAnimeSystem {
         protected GameObject mGameObject = null;
         protected Animator mAnimator = null;
         protected Transform mTransform;
+        protected AnimeEvent mAnimeEvent;
+        
+        protected AnimeCallback mHitCallback;
+        protected AnimeCallback mEndCallback;
 
 
         public ModelAnimePlayerAnimator(GameObject gameObject) {
@@ -21,24 +25,61 @@ namespace BattleAnimeSystem {
             mAnimator = mGameObject.GetComponentInChildren<Animator>();
             mTransform = mGameObject.transform;
 
+            SetupAnimeEvent();
             SetupMoveAction();
         }
 
+        void SetupAnimeEvent() {
+             mAnimeEvent = mGameObject.GetComponentInChildren<AnimeEvent>();
+            if(mAnimeEvent != null) {
+                mAnimeEvent.EndCallback = OnAnimeEnd;
+                mAnimeEvent.Callback = OnAnimeEvent;
+            }
+
+        }
+
+        #region Animation Event handling 
+        protected void OnAnimeEnd() {
+            if(mEndCallback != null) {
+                mEndCallback();
+            }
+        }
+
+         protected void OnAnimeEvent(string eventName) {
+            eventName = eventName.ToLower();
+
+            if("hit" == eventName) {
+                //Debug.Log("Hit Event Received");
+                if(mHitCallback != null) {
+                    mHitCallback();
+                }    
+            }
+        } 
+
+        #endregion
+
         #region Key Battle Animation 
 
-        public void ShowAttack(short attackMode) {
+        public override void ShowAttack(short attackMode, AnimeCallback endCallback, AnimeCallback hitCallback) {
             string stateName;
 			if(attackMode == 1) {
 				stateName = "skill";
 			} else {
 				stateName = "attack";
 			}
+
+            // Setup callback
+            mEndCallback = endCallback;
+            mHitCallback = hitCallback;
+
+            // 
 			mAnimator.SetTrigger(stateName);
         }
-        public void ShowIdle() {
+        public override void ShowIdle() {
             mAnimator.SetTrigger("idle");
         }
-        public void ShowHit() {
+        public override void ShowHit(AnimeCallback endCallback) {
+            mEndCallback = endCallback;
             mAnimator.SetTrigger("hit");
         }
         public void ShowMoveForward() {
@@ -48,13 +89,27 @@ namespace BattleAnimeSystem {
             mAnimator.SetTrigger("backward");
         }
 
+        public override void ShowDie(AnimeCallback endCallback) {
+            mEndCallback = endCallback;
+            mAnimator.SetTrigger("die");
+        }
+        public override void Resurrect(bool animated, AnimeCallback endCallback)  // Reborn, exit from Die state
+        {
+            // ken: no handling for animated resurrect yet
+            mAnimator.SetTrigger("reset");
+            if(endCallback != null) {
+                endCallback();
+            }
+        }
+
+
         #endregion
 
 
         #region Update 
 
 
-        public void Update(float deltaTime) {
+        public override void Update(float deltaTime) {
 
 
             if(mStartMove) {
@@ -72,8 +127,13 @@ namespace BattleAnimeSystem {
 		protected bool mStartMove = false;
         protected AnimeCallback mMoveCallback;
 
-        public void Move(Vector3 from, Vector3 to, float duration, AnimeCallback callback) {
-
+        public override void Move(Model.MoveType moveType, 
+                    Vector3 from, Vector3 to, float duration, AnimeCallback callback) {
+            if(moveType == Model.MoveType.Forward) {
+                ShowMoveForward();
+            } else {
+                ShowMoveBackward();
+            }
             // 
 			mMoveAction.Reset();
 			mMoveAction.name = "move: " + from + "_" + to;
@@ -95,7 +155,7 @@ namespace BattleAnimeSystem {
 			} 
 			mMoveAction.Update(deltaTime);
 			if(mMoveAction.IsDone()) {
-				//Debug.Log("UpdateMove: " + mMoveAction.name + " done!");
+				Debug.Log("UpdateMove: " + mMoveAction.name + " done!");
 				mStartMove = false;
 				if(mMoveCallback != null) {
 					mMoveCallback();

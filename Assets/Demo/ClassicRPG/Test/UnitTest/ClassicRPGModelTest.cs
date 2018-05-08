@@ -22,9 +22,9 @@ public class ClassicRPGModelTest : BaseTest {
 	public void testAttack()
 	{
 		UpdateLog("Test Attack");
-		testModel1.Attack(1, 
-			() => { AppendLog("On Hit"); },
-			() => { AppendLog("Attack End"); }			
+		testModel1.Attack(1, 			
+			() => { AppendLog("Attack End"); },
+			() => { AppendLog("On Hit"); } 			
 		);
 	}
 
