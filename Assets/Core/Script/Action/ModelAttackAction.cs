@@ -13,8 +13,36 @@ namespace BattleAnimeSystem {
 		public short style = 0;
 		public PositionType postionType = PositionType.UsePosition;
 		public bool isMoving = true;
-		public Vector2 targetPostion = new Vector2(0, 0);
+		public Vector3 targetPostion = Vector3.zero;
 		public Model targetModel = null;
+
+		public static ModelAttackAction CreateAttackToPos(Model actor, short style,
+										 bool isMoving, Vector3 targetPos, AnimeAction onHitAction)
+		{
+			ModelAttackAction attackAction = new ModelAttackAction();
+			attackAction.actor = actor;
+			attackAction.style = style;
+			attackAction.isMoving = isMoving;
+			attackAction.postionType = PositionType.UsePosition;
+			attackAction.targetPostion = targetPos;
+			attackAction.onHitAction = onHitAction;
+		
+			return attackAction;
+		}
+
+		public static ModelAttackAction CreateAttackToModel(Model actor, short style,
+										 bool isMoving, Model target, AnimeAction onHitAction)
+		{
+			ModelAttackAction attackAction = new ModelAttackAction();
+			attackAction.actor = actor;
+			attackAction.style = style;
+			attackAction.isMoving = isMoving;
+			attackAction.postionType = PositionType.UseModel;
+			attackAction.targetModel = target;
+			attackAction.onHitAction = onHitAction;
+		
+			return attackAction;
+		}
 		
 		protected override void OnStart() {
 			if(name == "") {
@@ -30,10 +58,10 @@ namespace BattleAnimeSystem {
 			}
 		}
 
-		Vector2 GetMoveTargetPosition() {
+		Vector3 GetMoveTargetPosition() {
 			if(postionType == PositionType.UseModel) {
 				return targetModel == null ? Vector2.zero 
-						: actor.GetCloseAttackPosition(targetModel.GetPosition(), style);
+						: actor.GetCloseAttackPosition(targetModel.transform.position, style);
 			} else {
 				return targetPostion;
 			}

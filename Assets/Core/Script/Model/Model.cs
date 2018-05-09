@@ -201,17 +201,24 @@ namespace BattleAnimeSystem {
 			mOriginPosition = transform.position;
 
 			// 
-			mAnimePlayer.Move(MoveType.Forward, transform.position, endPos, moveDuration, callback);
+			mAnimePlayer.Move(MoveType.Forward, transform.position, endPos, moveDuration,
+						() => {
+							Debug.Log("MoveForward Finished!");
+							//ShowIdleAnime();
+							if(callback != null) {
+								callback();
+							}
+					});
 		}
 
 		public virtual void MoveBack(AnimeCallback callback = null) {
 			mAnimePlayer.Move(MoveType.Backward, transform.position, mOriginPosition, moveDuration,
-					() => {
-						Debug.Log("MoveBack Finished!");
-						transform.position = mOriginPosition;
-						ShowIdleAnime();
-						if(callback != null) {
-							callback();
+						() => {
+							Debug.Log("MoveBack Finished!");
+							transform.position = mOriginPosition;
+							ShowIdleAnime();
+							if(callback != null) {
+								callback();
 						}
 					});
 		}

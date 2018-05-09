@@ -7,7 +7,49 @@ namespace BattleAnimeSystem
     public class AnimeActionManager : MonoBehaviour
     {
 
+        #region Singleton 
+        // Note: this singleon implementation inspired by Unity 2DGameKit
+        public static AnimeActionManager Instance
+        {
+            get
+            {
+                if (sInstance != null) {
+                    return sInstance;
+                }
+                sInstance = FindObjectOfType<AnimeActionManager>();
+                if (sInstance != null) {
+                    return sInstance;
+                }
 
+                Create ();
+                return sInstance;
+            }
+        }
+
+        protected static AnimeActionManager sInstance;
+
+        public static AnimeActionManager Create ()
+        {
+            GameObject dataManagerGameObject = new GameObject("AnimeActionManager");
+            DontDestroyOnLoad(dataManagerGameObject);
+            sInstance = dataManagerGameObject.AddComponent<AnimeActionManager>();
+            return sInstance;
+        }
+
+        void Awake()
+        {
+            if (Instance != this) {
+                Destroy(gameObject);
+            }
+        }
+
+
+
+        #endregion
+
+
+
+        //------------------        
 
         //protected List<AnimeAction
 

@@ -40,13 +40,17 @@ public class FightDemoTest : BaseTest {
 		actor = rightTeam[0];  target=leftTeam[0];
 		AnimeAction p1Attack = CreateAttackAction(actor, target, 0, 
 							true, CreateHitDamageAction(target));
-		demoFight.AddAction(p1Attack);
+		
 
 		// Left-0 attack Right-1
 		actor = leftTeam[0];  target=rightTeam[0];
 		AnimeAction p2Attack = CreateAttackAction(actor, target, 0, 
 							true, CreateHitDamageAction(target, effectPrefab[1]));
+
+
+		
 		demoFight.AddAction(p2Attack);
+		demoFight.AddAction(p1Attack);
 
 		actionManager.RunAction(demoFight);
 	}
@@ -217,7 +221,7 @@ public class FightDemoTest : BaseTest {
 		ModelAttackAction attackAction = new ModelAttackAction();
 		attackAction.actor = actor;
 		attackAction.style = style;
-		attackAction.isMoving = isMoving;
+		attackAction.isMoving = true;
 		attackAction.postionType = ModelAttackAction.PositionType.UseModel;
 		attackAction.targetModel = target;
 		attackAction.onHitAction = onHitAction;
