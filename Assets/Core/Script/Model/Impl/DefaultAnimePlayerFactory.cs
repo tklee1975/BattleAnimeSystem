@@ -12,8 +12,12 @@ namespace BattleAnimeSystem {
             return new ModelAnimePlayerAnimator(obj);
         }   
 
-        public override IEffectAnimePlayer CreateEffectPlayer(GameObject obj) {
-            return new EffectAnimePlayerAnimator(obj);
+        public override IEffectAnimePlayer CreateEffectPlayer(GameObject obj, Effect.AnimeType animeType) {
+            if(Effect.AnimeType.EffectParticle == animeType) {
+                return new EffectAnimePlayerParticleSystem(obj);
+            } else { 
+                return new EffectAnimePlayerAnimator(obj);
+            }
         }    
 
          public override ITextAnimePlayer CreateTextPlayer(GameObject obj) {

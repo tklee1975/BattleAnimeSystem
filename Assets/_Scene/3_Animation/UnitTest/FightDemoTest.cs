@@ -113,6 +113,8 @@ public class FightDemoTest : BaseTest {
 		actionManager.RunAction(action);
 	}
 
+	int effectIndex = 0;
+
 	
 	public void AttackFromTeam(SequenceAction sequence, Model[] attackTeam, Model[] targetTeam) {
 		for(int i=0; i<attackTeam.Length; i++) {
@@ -121,8 +123,11 @@ public class FightDemoTest : BaseTest {
 
 			short style = (short) Random.Range(0, 2);
 
+			effectIndex++;
+			int effectIdx = effectIndex % 4;
+
 			AnimeAction attackAttack = CreateAttackAction(actor, target, style, 
-							true, CreateHitDamageAction(target, effectPrefab[0]));
+							true, CreateHitDamageAction(target, effectPrefab[effectIdx]));
 			sequence.AddAction(attackAttack);
 			//for(Model actor in attackTeam) {	
 		}

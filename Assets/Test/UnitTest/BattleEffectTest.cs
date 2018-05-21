@@ -11,7 +11,7 @@ public class BattleEffectTest : BaseTest {
 	public GameObject[] allEffectPrefab;
 	public GameObject projectilePrefab;
 
-	[Range(0, 3)] public int testEffectIndex = 0;
+	public int testEffectIndex = 0;
 
 	/// <summary>
 	/// Start is called on the frame when a script is enabled just before

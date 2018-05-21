@@ -9,6 +9,7 @@ public class EffectActionTest : BaseTest {
 	public AnimeActionManager actionManager;
 	public GameObject effectPrefab;
 	public GameObject projectilePrefab;
+	public GameObject particlePrefab;
 
 	[Test]
 	public void PointEffect()
@@ -17,6 +18,15 @@ public class EffectActionTest : BaseTest {
 
 		actionManager.RunAction(effectAction);
 	}
+
+	[Test]
+	public void ParticleEffect()
+	{
+		EffectAction effectAction = EffectAction.CreatePointEffect(particlePrefab, Vector3.zero);
+
+		actionManager.RunAction(effectAction);
+	}
+
 
 	[Test]
 	public void ProjectileEffect()

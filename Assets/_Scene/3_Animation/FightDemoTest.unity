@@ -472,6 +472,48 @@ Transform:
   m_PrefabParentObject: {fileID: 4223369546898306, guid: 6f4f18a72038a4580973cf056ad5f230,
     type: 2}
   m_PrefabInternal: {fileID: 437891502}
+--- !u!1001 &610923594
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4934289098634544, guid: e020058a6e958442b831ac6526ece629, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934289098634544, guid: e020058a6e958442b831ac6526ece629, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.010000002
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934289098634544, guid: e020058a6e958442b831ac6526ece629, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934289098634544, guid: e020058a6e958442b831ac6526ece629, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0.76604444
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934289098634544, guid: e020058a6e958442b831ac6526ece629, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934289098634544, guid: e020058a6e958442b831ac6526ece629, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934289098634544, guid: e020058a6e958442b831ac6526ece629, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.64278764
+      objectReference: {fileID: 0}
+    - target: {fileID: 4934289098634544, guid: e020058a6e958442b831ac6526ece629, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e020058a6e958442b831ac6526ece629, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &657003896
 Prefab:
   m_ObjectHideFlags: 0
@@ -625,6 +667,8 @@ MonoBehaviour:
   effectPrefab:
   - {fileID: 1714835854569274, guid: 5ec336b47240f48bb8c2c98e759bd875, type: 2}
   - {fileID: 1900822845129404, guid: d629ab739f3554e6e9b9312d73dec538, type: 2}
+  - {fileID: 1093079090405692, guid: 9a28f73790cc04c3f9367a714c01769f, type: 2}
+  - {fileID: 1659167664205310, guid: e020058a6e958442b831ac6526ece629, type: 2}
   skillEffect:
   - {fileID: 0}
   - {fileID: 0}

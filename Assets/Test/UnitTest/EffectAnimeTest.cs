@@ -8,7 +8,10 @@ using BattleAnimeSystem;
 public class EffectAnimeTest : BaseTest {
 
 	public IEffectAnimePlayer testPlayer;
+	public IEffectAnimePlayer particlePlayer;
 	public GameObject testObject;
+	public GameObject particleObject;
+	public EffectParticle effectParticle;
 	[Range(1, 7)] public int effectID;
 
 	/// <summary>
@@ -30,6 +33,22 @@ public class EffectAnimeTest : BaseTest {
 		testPlayer.Update(Time.deltaTime);
 	}
 
+	[Test]
+	public void testEffectParticle() {
+		effectParticle.Play(
+			() => { AppendLog("End"); }, 
+			() => { AppendLog("Hit"); }
+		);
+	}
+
+	[Test]
+	public void testParticle() {
+		testPlayer = new EffectAnimePlayerParticleSystem(particleObject);
+		testPlayer.PlayOnce(
+			() => { AppendLog("End"); }, 
+			() => { AppendLog("Hit"); }
+		);
+	}
 
 	[Test]
 	public void test1()

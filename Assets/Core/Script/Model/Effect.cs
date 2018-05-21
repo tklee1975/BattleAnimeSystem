@@ -12,8 +12,13 @@ namespace BattleAnimeSystem {
      * 
      */
 	public abstract class Effect : MonoBehaviour {
+		public enum AnimeType {
+			AnimeClip,
+			EffectParticle
+		};
         
 		public int effectID = 1;
+		public AnimeType animeType = AnimeType.AnimeClip;
 
 		protected AnimePlayerFactory mAnimePlayerFactory = null;
         protected IEffectAnimePlayer mAnimePlayer;
@@ -50,7 +55,7 @@ namespace BattleAnimeSystem {
 				Debug.Log("Model [" + gameObject.name + "] missing animePlayerFactory");
 				return;
 			}
-			mAnimePlayer = mAnimePlayerFactory.CreateEffectPlayer(gameObject);
+			mAnimePlayer = mAnimePlayerFactory.CreateEffectPlayer(gameObject, animeType);
 		}
         
 
