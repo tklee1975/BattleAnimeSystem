@@ -36,7 +36,8 @@ namespace BattleAnimeSystem {
 
 			action.effectType = Type.Point;
 			action.effectPrefab = prefab;
-			action.spawnPostion = position;
+			action.spawnPostion = position ;
+			action.spawnPostion.z = -5;
 			action.parentTransform = parent;
 			action.repeat = _repeat;
 

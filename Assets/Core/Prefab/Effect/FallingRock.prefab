@@ -83,6 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   effectID: 6
+  positionType: 0
 --- !u!212 &212828255054026828
 SpriteRenderer:
   m_ObjectHideFlags: 1

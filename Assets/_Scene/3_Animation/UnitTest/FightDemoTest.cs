@@ -201,7 +201,7 @@ public class FightDemoTest : BaseTest {
 		// 
 
 		EffectAction effectAction = EffectAction.CreatePointEffect(hitEffect,
-											 targetModel.GetPosition());
+											 targetModel.GetPosition() );
 											 
 		effectAction.onHitAction = hitDamagePack;									 
 		return effectAction;									 

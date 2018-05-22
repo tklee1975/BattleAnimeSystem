@@ -114,9 +114,17 @@ namespace BattleAnimeSystem {
             return mOriginPosition;
         }
 
-		 public virtual Vector2 GetCenterPosition() {    // the 
+	 	public virtual Vector2 GetCenterPosition() {    // the 
 		 	return (transform.position + new Vector3(0, 1, 0));
         }
+
+		public virtual Vector2 GetPositionByType(PositionType type) {
+			if(type == PositionType.Ground) {
+				return GetPosition();
+			} else {
+				return GetCenterPosition();
+			}
+		}
 
 
         public virtual Vector2 GetCloseAttackPosition(Vector3 targetPos, int attackStyle=0) {    // the 

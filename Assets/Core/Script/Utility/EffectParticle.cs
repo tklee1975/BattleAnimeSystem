@@ -4,7 +4,8 @@ using UnityEngine;
 
 namespace BattleAnimeSystem { 
     public class EffectParticle : MonoBehaviour {
-        public float hitTime = 0f;
+        [Range(0, 1)] public float hitTimeRatio = 0f;
+        [Range(0, 1)] public float endTimeRatio = 1f;
 
 
         protected AnimeCallback mHitCallback;
@@ -16,6 +17,9 @@ namespace BattleAnimeSystem {
         protected bool mParticlePlaying = false;
         protected float mParticleTimeElapse = 0;
         protected bool mHasHit = false;
+
+        protected float mHitTime;
+        protected float mEndTime;
         
 
         /// <summary>
@@ -28,6 +32,9 @@ namespace BattleAnimeSystem {
             mParticleDuration = mParticleSystem.main.duration;
             mParticleTimeElapse = 0;
             mParticlePlaying = false;
+
+            mHitTime = mParticleDuration * hitTimeRatio;
+            mEndTime = mParticleDuration * endTimeRatio;
         }
 
         // Use this for initialization
@@ -99,13 +106,13 @@ namespace BattleAnimeSystem {
             mParticleTimeElapse += delta;
             
             if(mHasHit == false) {
-                if(mParticleTimeElapse >= hitTime) {
+                if(mParticleTimeElapse >= mHitTime) {
                     OnHit();
                 }
             }
 
 
-            if(mParticleTimeElapse >= mParticleDuration) {
+            if(mParticleTimeElapse >= mEndTime) {
                 OnParticlePlayEnd();
             }
         }
