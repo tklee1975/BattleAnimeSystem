@@ -124,7 +124,7 @@ public class FightDemoTest : BaseTest {
 			short style = (short) Random.Range(0, 2);
 
 			effectIndex++;
-			int effectIdx = effectIndex % 4;
+			int effectIdx = effectIndex % 2;
 
 			AnimeAction attackAttack = CreateAttackAction(actor, target, style, 
 							true, CreateHitDamageAction(target, effectPrefab[effectIdx]));
